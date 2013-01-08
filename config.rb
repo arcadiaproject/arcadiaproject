@@ -5,6 +5,11 @@
 #Livereload
 activate :livereload
 
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
+
 Time.zone = "Rome"
 
 activate :blog do |blog|
