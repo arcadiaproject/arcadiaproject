@@ -10,10 +10,25 @@
     -# To set titles and descriptions globally and for each individual page, see /DOCS.md
     %title= page_title
     %meta{:content => page_description, :name => "description"}
+    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
+    %meta{:content => "yes", :name =>"apple-mobile-web-app-capable"}
+    %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}
+   
     
-    %meta{:content => "width=device-width", :name => "viewport"}
-    
+    <!-- Favicons and touch icons -->
+    <!-- For retina-display iPads -->
+    <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png"/>
+    <!-- For retina-display iPhones -->
+    <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png"/>
+    <!-- For iPad 1 -->
+    <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png"/>
+    <!-- For iPhone 3G, iPod Touch and Android -->
+    <link href="apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+    <!-- For Nokia -->
+    <link href="apple-touch-icon-original.png" rel="shortcut icon"/>
+    <!-- For everything else -->
     <link href="favicon.png" rel="shortcut icon" type="image/png"/>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     
     = javascript_include_tag "vendor/Modernizr"
     = stylesheet_link_tag "site"
