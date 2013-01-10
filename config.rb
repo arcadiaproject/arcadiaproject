@@ -39,6 +39,7 @@ page "/", :layout => :html5
 page "/list"
 
 page "/post.html", :layout => :html5
+page "/bestiarum.html", :layout => :html5
 
 
 
