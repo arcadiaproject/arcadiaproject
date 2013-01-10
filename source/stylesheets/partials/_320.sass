@@ -3,3 +3,50 @@
 	+sprite($assets, "logo-mobile", true)
 	width: sprite-width($assets, "logo-mobile")
 	height: sprite-width($assets, "logo-mobile")
+#left-column
+	+span-columns(7)
+#right-column
+	+span-columns(7)
+	h1.vision
+		font-family: "lato"
+		font-size: px-to-em(26px)
+		line-height: px-to-em(31px,24px)
+		text-transform: uppercase
+		margin-top: 5px
+		margin-bottom: 0
+		font-weight: 600
+		font-style: italic
+	.intro
+		font-family: "libertine"
+		font-size: px-to-em(15px)
+		line-height: px-to-em(18px,16px)
+		font-style: italic
+		.first-word
+			font-family: "libertine"
+			font-size: px-to-em(12px)
+			text-transform: uppercase
+			font-weight: 900
+			font-style: italic
+nav
+	+pre(1)
+	ul
+		+no-bullets
+		@extend .noindent
+		li
+			.description
+				+span-columns(5)
+				
+				.asterisk
+					+assign-sprite-background($assets)
+					+sprite($assets, "asterisk", true)
+					width: sprite-width($assets, "asterisk")
+					height: sprite-width($assets, "asterisk")
+					+float-left
+				h1
+					font-family: "lato regular"
+					text-transform: lowercase
+					font-size: 13px
+					line-height: 17px
+					color: #333333
+					margin-left: 11px
+					

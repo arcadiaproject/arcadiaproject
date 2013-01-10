@@ -1,46 +1,30 @@
 #container
   #left-column
-    .logo
+    #logo
   #right-column
-    %h1 No, motherfucker: my money's in that office, right? If she start giving me some bullshit about it
+    %h1.vision No, motherfucker: my money's in that office, right? If she start giving me some bullshit about it
     %p.intro
       %span.first-word [intro]
       and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. You understand?
-    .description
-      .asterisco
-      %h1
-        Find out where the fuck my
-        = succeed "goddamn" do
-          %br/
-        money is:
-    .description2
-      .asterisco
-      %h1
-        She gonna tell me too. You
-        = succeed "understand" do
-          %br/
-        motherfucker?
-    #bottoni
-      .description3
-        .asterisco
-        %h1
-          Find out where the fuck my
-          = succeed "goddamn" do
-            %br/
-          money is:
-      .bottone-black
-        .left-corner
-        .right-corner
-        %nav.breadcrumb
-          %a{:href => "#"} bestiarum
-      .bottone-black2
-        .left-corner
-        .right-corner
-        %nav.breadcrumb
-          %a{:href => "#"} events
-      .bottone-black3
-        .left-corner
-        .right-corner
-        %nav.breadcrumb
-          %a{:href => "#"} vieni a pranzo
+    %nav
+      %ul
+        %li
+          .description
+            .asterisk
+            %h1
+              Find out where the fuck my succeed "goddamn" do money is:
+        %li
+          .description
+            .asterisk
+            %h1
+              Find out where the fuck my succeed "goddamn" do money is:
+        
+            
+        
+        -# .bottone-black
+        -#   .left-corner
+        -#   .right-corner
+        -#   %nav.breadcrumb
+        -#     %a{:href => "#"} bestiarum
+     
   / chiusura right column

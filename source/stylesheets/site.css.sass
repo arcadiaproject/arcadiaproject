@@ -12,9 +12,16 @@ $grey: #666666
 $legacy-support-for-ie: true
 
 @import partials/general
+@import partials/custom_mixin
 @import partials/fonts
 @import partials/grid
-@import partials/home
+//@import partials/home
+
+$assets-layout:smart
+$assets: sprite-map("assets/*.png")
+
+@import partials/320
+@import partials/960
 // @import partials/bestiarum
 // @import partials/bottoni
 // @import partials/post
@@ -23,8 +30,7 @@ $legacy-support-for-ie: true
 // @import partials/list_menu
 // @import partials/calendar
 
-// $assets-layout:smart
-// $assets: sprite-map("assets/*.png")
+
 
 body
   -webkit-font-smoothing: antialiased
