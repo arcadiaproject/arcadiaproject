@@ -4,8 +4,16 @@ set :markdown_engine, :redcarpet
 #Livereload
 activate :livereload
 
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = "master"
+  deploy.remote = "build"
+end
+
+Time.zone = "Rome"
+
 activate :blog do |blog|
-  # set options on blog
    #blog.prefix = "blog"
     blog.permalink = "blog/:year/:month/:day/:title.html"
     blog.sources = "articles/:year-:month-:day-:title.html"
@@ -42,8 +50,8 @@ end
 ###
 
 # Susy grids in Compass
-# First: gem install compass-susy-plugin
-# require 'susy'
+# First: gem install susy
+require 'susy'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -92,27 +100,29 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :fonts_dir, 'fonts'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+   activate :minify_css
   
   # Minify Javascript on build
-  activate :minify_javascript
+   activate :minify_javascript
   
   # Create favicon/touch icon set from source/favicon_base.png
-   activate :favicon_maker
+  activate :favicon_maker
   
   # Enable cache buster
-  # activate :cache_buster
+   activate :cache_buster
   
   # Use relative URLs
   # activate :relative_assets
   
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
+   require "middleman-smusher"
+   activate :smusher
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
