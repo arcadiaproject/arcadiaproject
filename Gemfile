@@ -9,4 +9,5 @@ gem "middleman-blog"
 gem "susy", "1.0"
 gem "redcarpet"
 gem 'compass-h5bp'
+gem 'oily_png'
 gem 'coffee-filter' # Coffeescript filter for HAML
