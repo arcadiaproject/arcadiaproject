@@ -2,4 +2,7 @@
 *.scssc
 sass-cache/
 
+/source/javascripts/vendor
 build/
+/.sass-cache
+.sass-cache
