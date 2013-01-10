@@ -1,7 +1,8 @@
 #container
   #left-column
+  / <div id="right-column">
   #post
-    .img
+    %img{:src => "images/img1.png"}/
     .content-data
       %h1 07 / december / 2012
     .content-news
@@ -18,17 +19,15 @@
       %span.dove @ società anonima
       %span.indirizzo — Via Pietro Micca 12
       .corner-down
-    %a.bottone-generico{:href => "#shgsgs"}
-      .container
-        .corner-left
-        .corner-right
-        %h3 read more
-      .left_hover
-      .center_hover
-      .right_hover
+    .clear
+      %a.bottone-generico{:href => "#shgsgs"}
+        .container
+          .corner-left
+          .corner-right
+          %h3 read more
+        .left_hover
+        .center_hover
+        .right_hover
+  / chiusura post
 / chiusura right column
-
-
-
-
-
+/ chiusura container

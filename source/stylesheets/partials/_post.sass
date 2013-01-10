@@ -1,31 +1,28 @@
 #post
-  .img
-    background: image-url("img1.png") no-repeat left top
-    width: 401px
-    height: 309px
+  img
+    +float-left
     position: absolute
   .content-data
-    +pre(3)
+    +pre(6)
+    +float-left
     position: relative
+    width: image-width("post-data.png")
     background: image-url("post-data.png") no-repeat left top
-    width: 167px
-    height: 35px
     h1
       font-family: "lekton italic"
       font-size: 10px
       font-weight: normal
       text-transform: uppercase
-      position: absolute
-      margin-top: 10px
-      margin-left: 33px
+      line-height: 24px
+      text-align: center
+      min-height: image-height("post-data.png")
   .content-news
-    +pre(3)
+    +pre(6)
+    +span-columns(5)
     position: relative
     background: white
     border: 2px solid black
     outline: 1px solid white
-    width: 276px
-    float: left
     margin-top: 10px
     .corner-up
       background: image-url("post-text-up.png") top no-repeat
@@ -71,3 +68,6 @@
       font-size: 13px
       line-height: 17px
       font-weight: normal
+  .bottone-generico
+    position: relative
+    clear: left
