@@ -38,6 +38,8 @@ page "/feed.xml", :layout => false
 page "/", :layout => :html5
 page "/list"
 
+page "/post.html", :layout => :html5
+
 
 
 data.actors.friends.each do |name|
