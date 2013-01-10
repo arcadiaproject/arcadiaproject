@@ -36,6 +36,8 @@ end
 
 page "/feed.xml", :layout => false
 page "/", :layout => :html5
+page "/eventi.html", :layout => :html5
+
 page "/list"
 
 page "/post.html", :layout => :html5

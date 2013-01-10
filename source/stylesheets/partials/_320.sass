@@ -3,19 +3,59 @@ $purple: #724457
 #logo
 	+assign-sprite-background($assets)
 	+sprite($assets, "logo-mobile", true)
+	+float-left
 #left-column
+	margin-bottom: 10px
 	+span-columns(7)
+	nav[role="navigation_menu"]
+		margin-top: 8px
+		
+		ul
+			
+			list-style-type: none
+			+no-bullets
+			@extend .noindent
+			
+			li
+				+span-columns(4 omega)
+				a
+					+float-right
+					text-align: right
+					display: block
+					color: black
+					padding: 3px 5px
+					font-family: "libertine"
+					font-style: italic
+					font-size: px-to-em(15px)
+					line-height: px-to-em(18px,24px)
+					&:focus
+						background: #00FFCE
+					&:active
+						background: #BDFFF2
+					&:visited
+						color: $purple
 #right-column
 	+span-columns(7)
-	h1.vision
+	h1.title
 		font-family: "lato"
 		font-size: px-to-em(26px)
-		line-height: px-to-em(31px,24px)
+		line-height: px-to-em(12px)
+		&.vision
+			line-height: px-to-em(31px,24px)
+		
 		text-transform: uppercase
 		margin-top: 5px
 		margin-bottom: 0
 		font-weight: 600
 		font-style: italic
+		.subtitle
+			margin-top: 0
+			margin-bottom: 0
+			padding-top: 0
+			padding-bottom: 0
+			font-size: px-to-em(15px,26px)
+			line-height: px-to-em(17px,31px)
+			text-transform: none
 	.intro
 		font-family: "libertine"
 		font-size: px-to-em(15px)
@@ -55,7 +95,7 @@ nav
 				clear: both
 				position: relative
 				height: 30px
-				+background( image-url("textures/btn_black_corner_top_left.png") no-repeat top left, image-url("textures/btn_black_corner_top_right.png") no-repeat top right, image-url("textures/btn_black_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_black_corner_bottom_right.png") no-repeat bottom right,black)
+				+background( image-url("textures/btn_white_corner_top_left.png") no-repeat top left, image-url("textures/btn_white_corner_top_right.png") no-repeat top right, image-url("textures/btn_white_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_white_corner_bottom_right.png") no-repeat bottom right,black)
 				display: block
 				font-family: "lato"
 				font-size: px-to-em(13px)
@@ -66,10 +106,10 @@ nav
 				font-style: italic
 				padding-left: 11px
 				text-decoration: none
-				&:hover, &:focus
+				&:focus
 					color: #BDFFF2
 				&:visited
-					+background( image-url("textures/btn_purple_corner_top_left.png") no-repeat top left, image-url("textures/btn_purple_corner_top_right.png") no-repeat top right, image-url("textures/btn_purple_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_purple_corner_bottom_right.png") no-repeat bottom right,$purple)
+					background-color: $purple
 					color: #D0F7EF
 	
 					
