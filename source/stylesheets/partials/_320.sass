@@ -32,7 +32,8 @@ nav
 		li
 			.description
 				+span-columns(7)
-				
+				margin-bottom: 7px
+				margin-top: 13px
 				.asterisk
 					+assign-sprite-background($assets)
 					+sprite($assets, "asterisk-mobile", true)
@@ -47,30 +48,34 @@ nav
 					padding-left: 5px
 					padding-top: 3px
 					margin: 0
-			.bottone-black
+			.button-black
+				clear: both
 				position: relative
 				background: black
 				height: 30px
 				.left-corner
 					+assign-sprite-background($assets)
-					+sprite($assets, "btn_corner_left", true)
+					+sprite($assets, "btn_black_corners_left-mobile", true)
+					position: absolute
+					left: 0
 				
 				.right-corner
 					+assign-sprite-background($assets)
-					+sprite($assets, "btn_corner_right", true)
+					+sprite($assets, "btn_black_corners_right-mobile", true)
 					position: absolute
 					right: 0
 				a
+					display: block
 					font-family: "lato"
-					font-size: 16px
-					line-height: 27px
+					font-size: px-to-em(13px)
+					line-height: 30px
 					text-transform: uppercase
 					color: #00FFCE
 					font-weight: 900
 					font-style: italic
-					margin: 0 20px
+					padding-left: 11px
 					text-decoration: none
 					&:hover, &:focus
-						color: #24CDA8
+						color: #BDFFF2
 	
 					
