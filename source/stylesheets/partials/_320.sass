@@ -51,19 +51,8 @@ nav
 			.button-black
 				clear: both
 				position: relative
-				background: black
 				height: 30px
-				.left-corner
-					+assign-sprite-background($assets)
-					+sprite($assets, "btn_black_corners_left-mobile", true)
-					position: absolute
-					left: 0
-				
-				.right-corner
-					+assign-sprite-background($assets)
-					+sprite($assets, "btn_black_corners_right-mobile", true)
-					position: absolute
-					right: 0
+				+background( image-url("textures/btn_black_corner_top_left.png") no-repeat top left, image-url("textures/btn_black_corner_top_right.png") no-repeat top right, image-url("textures/btn_black_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_black_corner_bottom_right.png") no-repeat bottom right,black)
 				a
 					display: block
 					font-family: "lato"
