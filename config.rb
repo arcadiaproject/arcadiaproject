@@ -8,6 +8,8 @@ activate :livereload
 
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.branch = "master"
+  deploy.remote = "build"
 end
 
 Time.zone = "Rome"
@@ -97,6 +99,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :fonts_dir, 'fonts'
 
 # Build-specific configuration
 configure :build do

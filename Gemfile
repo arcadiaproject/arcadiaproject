@@ -8,7 +8,7 @@ gem "middleman-deploy"
 gem "middleman-smusher"
 gem "susy", "1.0"
 gem "redcarpet"
-
+gem 'compass-h5bp'
 gem 'coffee-filter' # Coffeescript filter for HAML
 
 # For feed.xml.builder

@@ -1,0 +1,172 @@
+#left-column
+  h1
+    +span-columns(3, 16)
+
+#right-column
+  h1
+    font-family: "lato bold italic"
+    font-size: 55px
+    line-height: 66px
+    color: black
+    text-transform: uppercase
+    +span-columns(11, 16)
+    +pre(3)
+    margin-top: 0!important
+    margin-bottom: 0!important
+    .subtitle
+      margin-top: 0!important
+      margin-bottom: 0!important
+      padding-top: 0!important
+      padding-bottom: 0!important
+      font-size: 18px
+      line-height: 22px
+      text-transform: none
+  .intro-pagine-interne
+    font-family: "libertine italic"
+    font-size: 18px
+    line-height: 22px
+    color: black
+    text-indent: 60px
+    +span-columns(11, 16)
+    +pre(3)
+    background: image-url("text_indent.png") top left no-repeat
+  .people
+    +span-columns(12, 16)
+    +pre(3)
+    list-style: none
+    padding: 0 !important
+    li
+      &:hover
+        margin: 0 !important
+        padding: 0 !important
+      position: relative
+      display: inline-block
+      a
+        height: 49px
+        display: block
+        position: relative
+        margin-right: 4px
+        margin-bottom: 4px
+        text-decoration: none
+        .container
+          border: 2px solid black
+          outline: 1px solid white
+          background-color: white
+          position: relative
+          float: left
+          padding: 1px 8px 0px 8px
+          .corner-left
+            position: absolute
+            background: url("../images/people_corner_left.png") top left no-repeat
+            background-color: white
+            width: 7px
+            height: 47px
+            margin-left: -8px
+            margin-top: -1px
+          .corner-right
+            float: right
+            background: url("../images/people_corner_right.png") top left no-repeat
+            background-color: white
+            width: 7px
+            height: 47px
+            margin-right: -8px
+            margin-top: -1px
+          h3
+            margin: 0 !important
+            padding: 0 !important
+            font-family: "libertine italic"
+            font-size: 23px
+            line-height: 27px
+            text-decoration: underline
+            font-weight: normal
+            color: black
+          h4
+            margin: 0 !important
+            padding: 0 !important
+            font-family: "lekton italic"
+            font-size: 10px
+            font-weight: normal
+            text-transform: uppercase
+            color: black
+    a:visited
+      .container
+        border: 2px solid #00ffce
+        .corner-left
+          background-image: url("../images/people_corner_left_hover.png") !important
+        .corner-right
+          background-image: url("../images/people_corner_right_hover.png") !important
+        h3, h4
+          color: #00FFCE
+      &:hover
+        .container
+          border: 2px solid black
+          outline: 1px solid white
+          background-color: white
+          position: relative
+          float: left
+          padding: 1px 8px 0px 8px
+          .corner-left
+            position: absolute
+            background: white url("../images/people_corner_left.png") top left no-repeat
+            width: 7px
+            height: 47px
+            margin-left: -8px
+            margin-top: -1px
+          .corner-right
+            float: right
+            background: white url("../images/people_corner_right.png") top left no-repeat
+            width: 7px
+            height: 47px
+            margin-right: -8px
+            margin-top: -1px
+          h3
+            margin: 0 !important
+            padding: 0 !important
+            font-family: "libertine italic"
+            font-size: 23px
+            line-height: 27px
+            text-decoration: underline
+            font-weight: normal
+            color: black
+          h4
+            margin: 0 !important
+            padding: 0 !important
+            font-family: "lekton italic"
+            font-size: 10px
+            font-weight: normal
+            text-transform: uppercase
+            color: black
+    a:hover
+      position: relative
+      height: 49px
+      margin: 0 !important
+      margin-right: 3px !important
+      .left_hover
+        position: absolute
+        bottom: 1px
+        left: -12px
+        width: 12px
+        height: 12px
+        background: url("../images/left_hover.png") top left no-repeat
+      .center_hover
+        position: relative
+        float: left
+        height: 12px
+        width: 97%
+        background: url("../images/center_hover.png") bottom left repeat-x
+      .right_hover
+        position: absolute
+        top: -15px
+        margin-right: 6px
+        right: -6px
+        width: 12px
+        height: 63px
+        background: url("../images/right_hover.png") top left no-repeat
+      .container
+        margin-top: -15px
+        margin-left: -11px
+        margin-right: 12px
+        position: relative
+        float: left
+        h3
+          background-color: #00FFCE
