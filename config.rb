@@ -40,7 +40,6 @@ page "/list"
 
 
 
-
 data.actors.friends.each do |name|
   proxy "/#{name}.html", "/actor.html", :locals => { :person_name => name }, :ignore => true
 end
@@ -52,7 +51,7 @@ end
 # Susy grids in Compass
 # First: gem install susy
 require 'susy'
-
+#require "middleman-smusher"
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
@@ -111,7 +110,7 @@ configure :build do
    activate :minify_javascript
   
   # Create favicon/touch icon set from source/favicon_base.png
-  activate :favicon_maker
+   activate :favicon_maker
   
   # Enable cache buster
    activate :cache_buster
@@ -121,8 +120,7 @@ configure :build do
   
   # Compress PNGs after build
   # First: gem install middleman-smusher
-   require "middleman-smusher"
-   activate :smusher
+  # activate :smusher
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
