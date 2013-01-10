@@ -1,8 +1,6 @@
 #logo
 	+assign-sprite-background($assets)
 	+sprite($assets, "logo-mobile", true)
-	width: sprite-width($assets, "logo-mobile")
-	height: sprite-width($assets, "logo-mobile")
 #left-column
 	+span-columns(7)
 #right-column
@@ -28,25 +26,51 @@
 			font-weight: 900
 			font-style: italic
 nav
-	+pre(1)
 	ul
 		+no-bullets
 		@extend .noindent
 		li
 			.description
-				+span-columns(5)
+				+span-columns(7)
 				
 				.asterisk
 					+assign-sprite-background($assets)
-					+sprite($assets, "asterisk", true)
-					width: sprite-width($assets, "asterisk")
-					height: sprite-width($assets, "asterisk")
+					+sprite($assets, "asterisk-mobile", true)
 					+float-left
-				h1
-					font-family: "lato regular"
+				p
+					font-family: "lato", sans-serif
 					text-transform: lowercase
-					font-size: 13px
-					line-height: 17px
+					font-size: px-to-em(10px)
+					line-height: px-to-em(11px,24px)
 					color: #333333
-					margin-left: 11px
+					+float-left
+					padding-left: 5px
+					padding-top: 3px
+					margin: 0
+			.bottone-black
+				position: relative
+				background: black
+				height: 30px
+				.left-corner
+					+assign-sprite-background($assets)
+					+sprite($assets, "btn_corner_left", true)
+				
+				.right-corner
+					+assign-sprite-background($assets)
+					+sprite($assets, "btn_corner_right", true)
+					position: absolute
+					right: 0
+				a
+					font-family: "lato"
+					font-size: 16px
+					line-height: 27px
+					text-transform: uppercase
+					color: #00FFCE
+					font-weight: 900
+					font-style: italic
+					margin: 0 20px
+					text-decoration: none
+					&:hover, &:focus
+						color: #24CDA8
+	
 					
