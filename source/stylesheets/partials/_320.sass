@@ -132,30 +132,29 @@ nav
 		position: relative
 		display: inline-block
 		a
-			height: 49px
 			display: block
 			position: relative
-			margin-right: 4px
-			margin-bottom: 4px
 			text-decoration: none
+			margin: 6px
 			.white-box
+				height: 40px
 				h3
 					margin: 0 !important
-					padding: 0 !important
+					padding: 7px 8px 0 8px !important
 					font-family: "libertine"
 					font-size: 20px
 					font-style: italic
-					line-height: 24px
+					line-height: 12px
 					text-decoration: underline
-					font-weight: normal
+					font-weight: 400
 					color: black
 				h4
 					margin: 0 !important
-					padding: 0 !important
+					padding: 0 8px 0 8px !important
 					font-family: "lekton"
 					font-size: 10px
 					font-style: italic
-					font-weight: normal
+					font-weight: 400
 					text-transform: uppercase
 					color: black
 	a:visited
@@ -165,65 +164,66 @@ nav
 				color: #00FFCE
 		&:hover
 			.white-box
+				border: 2px solid black
 				position: relative
 				float: left
 				padding: 1px 8px 0px 8px
 				h3
 					margin: 0 !important
-					padding: 0 !important
+					padding: 8px 8px 0 8px !important
 					font-family: "libertine"
 					font-size: 20px
 					font-style: italic
-					line-height: 24px
+					line-height: 12px
 					text-decoration: underline
-					font-weight: normal
+					font-weight: 400
 					color: black
 				h4
 					margin: 0 !important
-					padding: 0 !important
+					padding: 0 8px 0 8px !important
 					font-family: "lekton"
 					font-size: 10px
 					font-style: italic
-					font-weight: normal
+					font-weight: 400
 					text-transform: uppercase
 					color: black
 	a:hover
 		position: relative
-		height: 49px
 		margin: 0 !important
-		margin-right: 3px !important
-		.left_hover
-			position: absolute
-			bottom: 1px
-			left: -12px
-			width: 12px
-			height: 12px
-			+assign-sprite-background($assets)
-			+sprite($assets, "bottone_pezzo_sx", true)
-		.center_hover
-			position: relative
-			float: left
-			height: 12px
-			width: 97%
-			background: image-url("textures/bottone_pezzo_center.png")repeat-x bottom left 
-		.right_hover
-			position: absolute
-			top: -15px
-			margin-right: 6px
-			right: -6px
-			width: 12px
-			height: 63px
-			+assign-sprite-background($assets)
-			+sprite($assets, "bottone_pezzo_dx", true)
-			
+		margin-left: 7px !important
+		
 		.white-box
-			margin-top: -15px
-			margin-left: -11px
+			margin-top: -7px
+			margin-left: -7px
 			margin-right: 12px
 			position: relative
 			float: left
 			h3
 				background-color: #00FFCE
+			.left_hover
+				position: absolute
+				bottom: -10px
+				left: -2px
+				width: 7px
+				height: 8px
+				+assign-sprite-background($assets)
+				+sprite($assets, "bottone_pezzo_sx_people", true)
+			.center_hover
+				position: absolute
+				bottom: -10px
+				left: 5px
+				height: 8px
+				width: 98%
+				background: image-url("textures/bottone_pezzo_center_people.png")repeat-x bottom left 
+			.right_hover
+				position: absolute
+				top: -2px
+				margin-right: 6px
+				right: -16px
+				width: 8px
+				height: 46px
+				+assign-sprite-background($assets)
+				+sprite($assets, "bottone_pezzo_dx_people", true)
 	
 	
 					

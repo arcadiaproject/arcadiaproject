@@ -11,14 +11,15 @@ $grey: #666666
 
 $legacy-support-for-ie: true
 
-@import partials/general
+$assets-layout:smart
+$assets: sprite-map("assets/*.png")
+
 @import partials/custom_mixin
 @import partials/fonts
 @import partials/grid
+@import partials/general
 //@import partials/home
 
-$assets-layout:smart
-$assets: sprite-map("assets/*.png")
 
 @import partials/320
 @import partials/320_post

@@ -58,20 +58,22 @@ a.bottone-generico
 		left: -8px
 		width: 8px
 		height: 8px
-		background: image-url("bottone_pezzo_sx.png") top left no-repeat
+		+assign-sprite-background($assets)
+		+sprite($assets, "bottone_pezzo_sx", true)
 	.center_hover
 		position: relative
 		float: left
 		height: 8px
 		width: 100%
-		background: image-url("bottone_pezzo_center.png") bottom left repeat-x
+		background: image-url("textures/bottone_pezzo_center.png") bottom left repeat-x
 	.right_hover
 		position: absolute
 		top: -4px
 		right: -8px
 		width: 8px
 		height: 46px
-		background: image-url("bottone_pezzo_dx.png") top left no-repeat
+		+assign-sprite-background($assets)
+		+sprite($assets, "bottone_pezzo_dx", true)
 
 a.bottone-generico:hover
 	h3
