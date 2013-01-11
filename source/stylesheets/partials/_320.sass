@@ -46,14 +46,16 @@ $purple: #724457
 		font-weight: 600
 		font-style: italic
 		margin-bottom: 5px
-		.subtitle
-			margin-top: 0
-			margin-bottom: 0
-			padding-top: 0
-			padding-bottom: 0
-			font-size: px-to-em(15px,26px)
-			line-height: px-to-em(17px,31px)
-			text-transform: none
+	p.subtitle
+		font-family: "lato"
+		margin-top: 0
+		margin-bottom: 0
+		padding-top: 0
+		padding-bottom: 0
+		font-size: px-to-em(15px,16px)
+		line-height: px-to-em(17px,24px)
+		text-transform: none
+		display: block
 			
 	.intro
 		font-family: "libertine"
@@ -71,7 +73,7 @@ $purple: #724457
 		font-style: italic
 		font-size: px-to-em(15px)
 		line-height: px-to-em(18px,16px)
-		text-indent: 30px
+		text-indent: image-width("textures/text_indent-mobile.png")
 		background: image-url("textures/text_indent-mobile.png") top left no-repeat
 nav
 	ul
@@ -92,10 +94,10 @@ nav
 					font-size: px-to-em(10px)
 					line-height: px-to-em(11px,24px)
 					color: #333333
-					+float-left
-					padding-left: 5px
+					margin: 0 0 0 sprite-width($assets, "asterisk-mobile")+3px
+					
 					padding-top: 3px
-					margin: 0
+					
 			
 			a.button-black
 				clear: both
