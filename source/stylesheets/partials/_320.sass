@@ -52,8 +52,8 @@ $purple: #724457
 		margin-bottom: 0
 		padding-top: 0
 		padding-bottom: 0
-		font-size: px-to-em(15px,16px)
-		line-height: px-to-em(17px,24px)
+		font-size: px-to-em(15px,26px)
+		line-height: px-to-em(17px,12px)
 		text-transform: none
 		display: block
 			
@@ -83,7 +83,7 @@ nav
 			.description
 				+span-columns(7)
 				margin-bottom: 7px
-				margin-top: 13px
+				margin-top: 7px
 				.asterisk
 					+assign-sprite-background($assets)
 					+sprite($assets, "asterisk-mobile", true)
@@ -119,5 +119,111 @@ nav
 				&:visited
 					background-color: $purple
 					color: #D0F7EF
+
+
+// bestiarum lista	
+.people
+	list-style: none
+	padding: 0 !important
+	li
+		&:hover
+			margin: 0 !important
+			padding: 0 !important
+		position: relative
+		display: inline-block
+		a
+			height: 49px
+			display: block
+			position: relative
+			margin-right: 4px
+			margin-bottom: 4px
+			text-decoration: none
+			.white-box
+				h3
+					margin: 0 !important
+					padding: 0 !important
+					font-family: "libertine"
+					font-size: 20px
+					font-style: italic
+					line-height: 24px
+					text-decoration: underline
+					font-weight: normal
+					color: black
+				h4
+					margin: 0 !important
+					padding: 0 !important
+					font-family: "lekton"
+					font-size: 10px
+					font-style: italic
+					font-weight: normal
+					text-transform: uppercase
+					color: black
+	a:visited
+		.white-box
+			border: 2px solid #00ffce
+			h3, h4
+				color: #00FFCE
+		&:hover
+			.white-box
+				position: relative
+				float: left
+				padding: 1px 8px 0px 8px
+				h3
+					margin: 0 !important
+					padding: 0 !important
+					font-family: "libertine"
+					font-size: 20px
+					font-style: italic
+					line-height: 24px
+					text-decoration: underline
+					font-weight: normal
+					color: black
+				h4
+					margin: 0 !important
+					padding: 0 !important
+					font-family: "lekton"
+					font-size: 10px
+					font-style: italic
+					font-weight: normal
+					text-transform: uppercase
+					color: black
+	a:hover
+		position: relative
+		height: 49px
+		margin: 0 !important
+		margin-right: 3px !important
+		.left_hover
+			position: absolute
+			bottom: 1px
+			left: -12px
+			width: 12px
+			height: 12px
+			+assign-sprite-background($assets)
+			+sprite($assets, "bottone_pezzo_sx", true)
+		.center_hover
+			position: relative
+			float: left
+			height: 12px
+			width: 97%
+			background: image-url("textures/bottone_pezzo_center.png")repeat-x bottom left 
+		.right_hover
+			position: absolute
+			top: -15px
+			margin-right: 6px
+			right: -6px
+			width: 12px
+			height: 63px
+			+assign-sprite-background($assets)
+			+sprite($assets, "bottone_pezzo_dx", true)
+			
+		.white-box
+			margin-top: -15px
+			margin-left: -11px
+			margin-right: 12px
+			position: relative
+			float: left
+			h3
+				background-color: #00FFCE
+	
 	
 					
