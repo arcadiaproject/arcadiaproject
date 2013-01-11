@@ -11,6 +11,11 @@
 	
 .nostyle
 	+unstyled-link
+	
+.white-box
+	+background( image-url("textures/btn_black_corner_top_left.png") no-repeat top left, image-url("textures/btn_black_corner_top_right.png") no-repeat top right, image-url("textures/btn_black_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_black_corner_bottom_right.png") no-repeat bottom right,white)
+	border: 2px solid black
+	outline: 1px solid white
 
 // start bottone generico
 a.bottone-generico
@@ -38,12 +43,13 @@ a.bottone-generico
 			width: 7px
 			height: 33px
 		h3
-			font-family: "libertine italic"
+			font-family: "libertine"
 			font-size: 14px
 			line-height: 18px
 			text-decoration: underline
 			font-weight: normal
 			color: black
+			font-style: italic
 			padding: 0 !important
 			margin: 5px 16px 0 16px
 	.left_hover
@@ -61,7 +67,7 @@ a.bottone-generico
 		background: image-url("bottone_pezzo_center.png") bottom left repeat-x
 	.right_hover
 		position: absolute
-		top: -7px
+		top: -4px
 		right: -8px
 		width: 8px
 		height: 46px
