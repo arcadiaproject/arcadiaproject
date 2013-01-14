@@ -18,6 +18,7 @@
 						line-height: px-to-em(21px,24px)
 	#right-column
 		+span-columns(13 omega)
+		
 		h1.title
 		
 			font-size: px-to-em(55px)
@@ -31,6 +32,7 @@
 			display: inline
 		
 		.excerpt
+			+span-columns(11,13)
 			clear: both
 			font-size: px-to-em(18px)
 			line-height: px-to-em(22px,24px)
@@ -78,37 +80,22 @@
 		.white-box
 			padding: 15 30 30 15
 			+clearfix
-		.foto
-			float: left
-
-		h1
-			margin-left: 5px
-			font-size: 26px
-			line-height: 30px
-			width: 35%
-			float: left
-		.data-calendar
-			margin-top: 10px
-			font-size: 13px
-			line-height: 15px
-		.luogo-calendar
-			font-size: 13px
-			line-height: 15px
-			
-		.intro-calendar
-			width: 35%
-			float: left
-			font-size: 15px
-			line-height: 18px
-			text-indent: image-width("textures/text_indent.png")
-			background: image-url("textures/text_indent.png") top left no-repeat
-		.intro2-calendar
-			width: 35%
-			float: left
-			font-size: 15px
-			line-height: 18px
-			text-indent: image-width("textures/text_indent.png")
-			background: image-url("textures/text_indent.png") top left no-repeat
+			opacity: 0.8
+			+span-columns(11, 13)
+			padding: 15px 15px 15px 0
+			.foto
+				+span-columns(3,11)
+				img
+					padding-left: 15px
+			.container-info
+				+span-columns(4,11)
+				h1
+					margin: 0
+			.container-descrizione
+				+span-columns(4 omega,11)
+				p:first-child
+					margin: 0
+				
 
 	.evento
 		margin-top: 10px
