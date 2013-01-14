@@ -231,6 +231,99 @@ nav
 				display: none
 			.right_hover
 				display: none
+
+//Eventi
+
+.content-calendar
+	position: relative
+	background: white
+	+span-columns(7)
+	.white-box
+		padding: 15px
+	.foto
+		background: image-url("foto_prova.png") no-repeat
+		width: 106px
+		height: 106px
+
+	h1
+		
+		font-family: "libertine italic"
+		font-size: 23px
+		line-height: 27px
+		font-weight: normal
+		text-transform: uppercase
+		text-decoration: underline
+		
+	.data-calendar
+		font-family: "lekton italic"
+		font-size: 10px
+		line-height: 12px
+		font-weight: normal
+		text-transform: uppercase
+		background-color: #00FFCE
+		display: inline-block
+	.luogo-calendar
+		font-family: "lekton italic"
+		font-size: 10px
+		line-height: 12px
+		font-weight: normal
+		text-transform: uppercase
+		background-color: #00FFCE
+		
+	.intro-calendar
+		font-family: "libertine italic"
+		font-size: 12px
+		line-height: 15px
+		font-weight: normal
+		text-indent: image-width("textures/text_indent-mobile.png")
+		background: image-url("textures/text_indent-mobile.png") top left no-repeat
+	.intro2-calendar
+		font-family: "libertine italic"
+		font-size: 12px
+		line-height: 15px
+		font-weight: normal
+		text-indent: image-width("textures/text_indent-mobile.png")
+		background: image-url("textures/text_indent-mobile.png") top left no-repeat
 	
+/*Define Accordion box*/
+.accordion 
+	+span-columns(7)
+	overflow: hidden
 	
-					
+
+
+/*set style of closed slide*/
+.accordion section
+	float: left
+	overflow: hidden
+	cursor: pointer 
+
+.accordion section:after
+	position: relative
+	font-size: 24px
+	color: #000
+	font-weight: bold
+
+/*End General Accordion****************************************************************************/
+
+
+/*Vertical Accordion *************************************************************************/
+.vertical section
+	width: 100%
+	height: 43px
+	-webkit-transition:height 0.2s ease-out
+	-moz-transition:height 0.2s ease-out
+	-o-transition:height 0.2s ease-out
+	-ms-transition:height 0.2s ease-out
+	transition:height 0.2s ease-out
+
+/*Set height of the slide*/
+.vertical :target
+	height: 100%
+
+
+
+
+		
+
+		
