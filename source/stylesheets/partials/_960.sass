@@ -1,7 +1,6 @@
 +at-breakpoint($break)
 	#logo
 		+sprite($assets, "logo", true)
-
 	#container
 		+susy-grid-background
 	#left-column
@@ -18,19 +17,17 @@
 						line-height: px-to-em(21px,24px)
 	#right-column
 		+span-columns(13 omega)
-		
 		h1.title
-		
 			font-size: px-to-em(55px)
 			line-height: px-to-em(66px,24px)
 			display: inline-block
+			+span-columns(11,13)
 			&.vision
 				line-height: px-to-em(66px,55px)
 		p.subtitle
 			font-size: px-to-em(18px,16px)
 			line-height: px-to-em(21px,24px)
 			display: inline
-		
 		.excerpt
 			+span-columns(11,13)
 			clear: both
@@ -38,49 +35,46 @@
 			line-height: px-to-em(22px,24px)
 			text-indent: image-width("textures/text_indent.png")
 			background: image-url("textures/text_indent.png") top left no-repeat
-		
 		.intro
 			clear: both
 			font-size: px-to-em(23px)
 			line-height: px-to-em(27px,24px)
-			
+			+span-columns(11,13)
 			.first-word
-				
 				font-size: px-to-em(16px)
 				line-height: px-to-em(19px,27px)
-	nav
-		ul
-			+no-bullets
-			@extend .noindent
-			+horizontal-list-container
-			li
-				+horizontal-list-item
-				+span-columns(4,13)
-				.description
+		nav
+			ul
+				+no-bullets
+				@extend .noindent
+				+horizontal-list-container
+				li
+					+horizontal-list-item
+					+span-columns(4,13)
+					.description
+						
+						.asterisk
+							+sprite($assets, "asterisk", true)
+						p
+							white-space: normal
+							+hyphenation
+							font-size: px-to-em(13px)
+							line-height: px-to-em(23px,24px)
+							margin: 0 0 0 sprite-width($assets, "asterisk")+5px
+					a.button-black
+						
+						height: 44px
 					
-					.asterisk
-						+sprite($assets, "asterisk", true)
-					p
-						white-space: normal
-						+hyphenation
-						font-size: px-to-em(13px)
-						line-height: px-to-em(23px,24px)
-						margin: 0 0 0 sprite-width($assets, "asterisk")+5px
-				a.button-black
+						font-size: px-to-em(16px)
+						line-height: 44px
 					
-					height: 44px
-				
-					font-size: px-to-em(16px)
-					line-height: 44px
-				
-					padding-left: 20px
+						padding-left: 20px
 
 	.content-calendar
 		
 		.white-box
 			padding: 15 30 30 15
 			+clearfix
-			opacity: 0.8
 			+span-columns(11, 13)
 			padding: 15px 15px 15px 0
 			.foto
