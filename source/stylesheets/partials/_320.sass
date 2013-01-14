@@ -236,54 +236,50 @@ nav
 
 .content-calendar
 	position: relative
-	background: white
 	+span-columns(7)
 	.white-box
 		padding: 15px
-	.foto
-		background: image-url("foto_prova.png") no-repeat
-		width: 106px
-		height: 106px
+		margin-top: -2px
+		.foto
+			background: image-url("foto_prova.png") no-repeat
+			width: 106px
+			height: 106px
 
-	h1
-		
-		font-family: "libertine italic"
-		font-size: 23px
-		line-height: 27px
-		font-weight: normal
-		text-transform: uppercase
-		text-decoration: underline
-		
-	.data-calendar
-		font-family: "lekton italic"
-		font-size: 10px
-		line-height: 12px
-		font-weight: normal
-		text-transform: uppercase
-		background-color: #00FFCE
-		display: inline-block
-	.luogo-calendar
-		font-family: "lekton italic"
-		font-size: 10px
-		line-height: 12px
-		font-weight: normal
-		text-transform: uppercase
-		background-color: #00FFCE
-		
-	.intro-calendar
-		font-family: "libertine italic"
-		font-size: 12px
-		line-height: 15px
-		font-weight: normal
-		text-indent: image-width("textures/text_indent-mobile.png")
-		background: image-url("textures/text_indent-mobile.png") top left no-repeat
-	.intro2-calendar
-		font-family: "libertine italic"
-		font-size: 12px
-		line-height: 15px
-		font-weight: normal
-		text-indent: image-width("textures/text_indent-mobile.png")
-		background: image-url("textures/text_indent-mobile.png") top left no-repeat
+		h1, .data-calendar, .luogo-calendar, .intro-calendar
+			font-style: italic
+			font-weight: 400
+		h1, .luogo-calendar, .intro-calendar
+			+span-columns(7)
+		h1
+			
+			font-family: "libertine"
+			font-size: 23px
+			line-height: 27px
+			text-transform: uppercase
+			text-decoration: underline
+			margin: 5px 0
+		.data-calendar
+			font-family: "lekton"
+			font-size: 10px
+			line-height: 12px
+			text-transform: uppercase
+			background-color: #00FFCE
+			display: inline-block
+			margin: 0
+			padding: 0 3px
+			clear: left
+			+float-left
+			position: relative
+			.where
+				text-decoration: underline
+		.intro-calendar
+			font-family: "libertine"
+			font-size: 12px
+			line-height: 15px
+			text-indent: 30px
+			background: image-url("textures/text_indent_grey-mobile.png") top left no-repeat
+			color: $grey
+			margin: 10px 0 0 0
 	
 /*Define Accordion box*/
 .accordion 
