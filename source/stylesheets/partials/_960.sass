@@ -44,6 +44,7 @@
 				font-size: px-to-em(16px)
 				line-height: px-to-em(19px,27px)
 		nav
+			+span-columns(13)
 			ul
 				+no-bullets
 				@extend .noindent
@@ -52,7 +53,6 @@
 					+horizontal-list-item
 					+span-columns(4,13)
 					.description
-						
 						.asterisk
 							+sprite($assets, "asterisk", true)
 						p
@@ -62,9 +62,7 @@
 							line-height: px-to-em(23px,24px)
 							margin: 0 0 0 sprite-width($assets, "asterisk")+5px
 					a.button-black
-						
 						height: 44px
-					
 						font-size: px-to-em(16px)
 						line-height: 44px
 					
