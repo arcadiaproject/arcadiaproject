@@ -9,13 +9,10 @@ $purple: #724457
 	+span-columns(7)
 	nav[role="navigation_menu"]
 		margin-top: 8px
-		
 		ul
-			
 			list-style-type: none
 			+no-bullets
 			@extend .noindent
-			
 			li
 				+span-columns(4 omega)
 				a
@@ -49,14 +46,16 @@ $purple: #724457
 		font-weight: 600
 		font-style: italic
 		margin-bottom: 5px
-		.subtitle
-			margin-top: 0
-			margin-bottom: 0
-			padding-top: 0
-			padding-bottom: 0
-			font-size: px-to-em(15px,26px)
-			line-height: px-to-em(17px,31px)
-			text-transform: none
+	p.subtitle
+		font-family: "lato"
+		margin-top: 0
+		margin-bottom: 0
+		padding-top: 0
+		padding-bottom: 0
+		font-size: px-to-em(15px,26px)
+		line-height: px-to-em(17px,12px)
+		text-transform: none
+		display: block
 			
 	.intro
 		font-family: "libertine"
@@ -74,7 +73,7 @@ $purple: #724457
 		font-style: italic
 		font-size: px-to-em(15px)
 		line-height: px-to-em(18px,16px)
-		text-indent: 30px
+		text-indent: image-width("textures/text_indent-mobile.png")
 		background: image-url("textures/text_indent-mobile.png") top left no-repeat
 nav
 	ul
@@ -84,7 +83,7 @@ nav
 			.description
 				+span-columns(7)
 				margin-bottom: 7px
-				margin-top: 13px
+				margin-top: 7px
 				.asterisk
 					+assign-sprite-background($assets)
 					+sprite($assets, "asterisk-mobile", true)
@@ -95,10 +94,10 @@ nav
 					font-size: px-to-em(10px)
 					line-height: px-to-em(11px,24px)
 					color: #333333
-					+float-left
-					padding-left: 5px
+					margin: 0 0 0 sprite-width($assets, "asterisk-mobile")+3px
+					
 					padding-top: 3px
-					margin: 0
+					
 			
 			a.button-black
 				clear: both
@@ -120,5 +119,118 @@ nav
 				&:visited
 					background-color: $purple
 					color: #D0F7EF
+
+
+// bestiarum lista	
+.people
+	list-style: none
+	padding: 0 !important
+	li
+		&:hover
+			margin: 0 !important
+			padding: 0 !important
+		position: relative
+		display: inline-block
+		a
+			display: block
+			position: relative
+			text-decoration: none
+			margin: 3px 0 0 0 !important
+			.white-box
+				height: 40px
+				h3
+					margin: 7px 8px 0 8px !important
+					font-family: "libertine"
+					font-size: 20px
+					font-style: italic
+					line-height: 12px
+					text-decoration: underline
+					font-weight: 400
+					color: black
+				h4
+					margin: 0 8px 0 8px !important
+					font-family: "lekton"
+					font-size: 10px
+					font-style: italic
+					font-weight: 400
+					text-transform: uppercase
+					color: black
+	a:visited
+		.white-box
+			border: 2px solid #00ffce
+			h3, h4
+				color: #00FFCE
+		&:hover
+			.white-box
+				border: 2px solid black
+				position: relative
+				float: left
+				h3
+					margin: 8px 8px 0 8px !important
+					font-family: "libertine"
+					font-size: 20px
+					font-style: italic
+					line-height: 12px
+					text-decoration: underline
+					font-weight: 400
+					color: black
+				h4
+					margin: 0 8px 0 8px !important
+					font-family: "lekton"
+					font-size: 10px
+					font-style: italic
+					font-weight: 400
+					text-transform: uppercase
+					color: black
+	a:hover
+		position: relative
+		margin: 0 -5px 0 0 !important
+		.white-box
+			margin-top: -7px
+			margin-left: -7px
+			margin-right: 12px
+			position: relative
+			float: left
+			h3
+				background-color: #00FFCE
+			.left_hover
+				position: absolute
+				bottom: -10px
+				left: -2px
+				width: 7px
+				height: 8px
+				+assign-sprite-background($assets)
+				+sprite($assets, "bottone_pezzo_sx_people", true)
+			.center_hover
+				position: absolute
+				bottom: -10px
+				left: 5px
+				height: 8px
+				width: 98%
+				background: image-url("textures/bottone_pezzo_center_people.png")repeat-x bottom left 
+			.right_hover
+				position: absolute
+				top: -2px
+				margin-right: 2px
+				right: -12px
+				width: 8px
+				height: 46px
+				+assign-sprite-background($assets)
+				+sprite($assets, "bottone_pezzo_dx_people", true)
+	a:active
+		position: relative
+		margin: 0 -12px 0 0 !important
+		.white-box
+			margin-top: 3px
+			margin-left: 0
+			h3
+				background-color: #00FFCE
+			.left_hover
+				display: none
+			.center_hover
+				display: none
+			.right_hover
+				display: none
+	
 	
 					

@@ -1,24 +1,35 @@
-#container
-  #left-column
-  / <div id="right-column">
-  #post
+#left-column
+  = link_to '/',:ref=> 'home', :class => "no style" do
+    #logo
+#right-column
+  .post
     %img{:src => "images/img1.png"}/
-    .content-data
+    .content-data.white-box
       %h1 07 / december / 2012
-    .content-news
-      .corner-up
-      %h1
-        I miti dell’ Internet Marketing:
-        = succeed "come" do
-          %br/
-        conciliare logiche SEO ed Esperienza Utente
-      %span.autore con Claudio Petrarulo
-      %br/
-      %span.data Giovedì 7 gennaio ore 19.00
-      %br/
-      %span.dove @ società anonima
-      %span.indirizzo — Via Pietro Micca 12
-      .corner-down
+    .content-news.white-box
+      %h1 I miti dell’ Internet Marketing: come conciliare logiche SEO ed Esperienza Utente
+      %p.autore con Claudio Petrarulo
+      %p.data Giovedì 7 gennaio ore 19.00
+      %p.dove 
+        @ società anonima
+        %span.indirizzo — Via Pietro Micca 12
+    .clear
+      %a.bottone-generico{:href => "#shgsgs"}
+        .container
+          .corner-left
+          .corner-right
+          %h3 read more
+        .left_hover
+        .center_hover
+        .right_hover
+  .post
+    %img{:src => "images/img1.png"}/
+    .content-data.white-box
+      %h1 07 / december / 2012
+    .content-news.white-box
+      %h1 IxDT / Interaction Design Tuesday
+      %p And we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. You understand?
+      %p.sub-paragraph We go there, and that nigga Winston or anybody else in there. Then I’m gonna shoot that bitch in the kneecaps, find out where my goddamn money is.
     .clear
       %a.bottone-generico{:href => "#shgsgs"}
         .container
@@ -29,5 +40,5 @@
         .center_hover
         .right_hover
   / chiusura post
-/ chiusura right column
-/ chiusura container
+  / chiusura right column
+  / chiusura container

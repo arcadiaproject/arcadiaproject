@@ -8,6 +8,14 @@
 .noindent 
 	padding: 0
 	margin: 0
+	
+.nostyle
+	+unstyled-link
+	
+.white-box
+	+background( image-url("textures/btn_black_corner_top_left.png") no-repeat top left, image-url("textures/btn_black_corner_top_right.png") no-repeat top right, image-url("textures/btn_black_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_black_corner_bottom_right.png") no-repeat bottom right,white)
+	border: 2px solid black
+	outline: 1px solid white
 
 // start bottone generico
 a.bottone-generico
@@ -35,34 +43,37 @@ a.bottone-generico
 			width: 7px
 			height: 33px
 		h3
-			font-family: "libertine italic"
+			font-family: "libertine"
 			font-size: 14px
-			line-height: 18px
+			line-height: 10px
 			text-decoration: underline
 			font-weight: normal
 			color: black
+			font-style: italic
 			padding: 0 !important
-			margin: 5px 16px 0 16px
+			margin: 9px 16px 0 16px
 	.left_hover
 		position: absolute
 		bottom: 0
 		left: -8px
 		width: 8px
 		height: 8px
-		background: image-url("bottone_pezzo_sx.png") top left no-repeat
+		+assign-sprite-background($assets)
+		+sprite($assets, "bottone_pezzo_sx", true)
 	.center_hover
 		position: relative
 		float: left
 		height: 8px
 		width: 100%
-		background: image-url("bottone_pezzo_center.png") bottom left repeat-x
+		background: image-url("textures/bottone_pezzo_center.png") bottom left repeat-x
 	.right_hover
 		position: absolute
-		top: -7px
+		top: -4px
 		right: -8px
 		width: 8px
 		height: 46px
-		background: image-url("bottone_pezzo_dx.png") top left no-repeat
+		+assign-sprite-background($assets)
+		+sprite($assets, "bottone_pezzo_dx", true)
 
 a.bottone-generico:hover
 	h3

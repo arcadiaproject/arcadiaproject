@@ -1,0 +1,70 @@
+.post
+  position: relative
+  +clearfix
+  margin-bottom: 55px
+  overflow: visible
+  img
+    position: absolute
+  .content-data
+    +span-columns(4)
+    height: 30px
+    position: relative
+    margin-top: 153px
+    h1
+      font-family: "lekton"
+      font-size: 10px
+      font-weight: normal
+      font-style: italic
+      text-transform: uppercase
+      line-height: 16px
+      padding-left: 16px
+  .content-news
+    +span-columns(6)
+    position: relative
+    margin-top: 10px
+    h1, p, .autore, .data, .dove
+      padding-left: 16px
+      padding-right: 16px
+      font-family: "lato"
+    .autore, .data, .dove, .indirizzo
+      font-size: 13px
+      line-height: 17px
+      font-style: italic
+    .autore, .data, .indirizzo
+      font-weight: 400
+      text-transform: none
+    h1
+      font-size: 16px
+      line-height: 18px
+      font-weight: 900
+      text-decoration: underline
+      margin: 12px 0 4px
+    p
+      font-size: 13px
+      line-height: 17px
+      font-weight: 400
+    .sub-paragraph
+      font-family: "libertine"
+      font-size: 12px
+      line-height: 15px
+      font-style: italic
+      color: $grey
+      text-indent: 30px
+      +background( image-url("textures/text_indent_subparagraph-mobile.png") no-repeat top left)
+      padding-left: 0
+      margin: 0 0 16px 16px
+    .autore
+      margin: 0 0 10px 0
+    .data
+      background-color: #00FFCE
+      margin: 0
+    .dove
+      font-weight: 900
+      text-transform: uppercase
+      margin: 0 0 16px 0
+    .indirizzo
+      font-family: "lato"
+  .bottone-generico
+    position: absolute
+    +pre(3)
+    margin-top: -7px
