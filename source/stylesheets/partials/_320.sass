@@ -240,24 +240,22 @@ nav
 	.white-box
 		padding: 15px
 		margin-top: -2px
+		+clearfix
 		.foto
-			background: image-url("foto_prova.png") no-repeat
 			width: 106px
 			height: 106px
-
 		h1, .data-calendar, .luogo-calendar, .intro-calendar
 			font-style: italic
 			font-weight: 400
 		h1, .luogo-calendar, .intro-calendar
 			+span-columns(7)
 		h1
-			
 			font-family: "libertine"
 			font-size: 23px
 			line-height: 27px
 			text-transform: uppercase
 			text-decoration: underline
-			margin: 5px 0
+			margin: 12px 0 5px 0
 		.data-calendar
 			font-family: "lekton"
 			font-size: 10px
@@ -281,14 +279,15 @@ nav
 			color: $grey
 			margin: 10px 0 0 0
 	
-/*Define Accordion box*/
+
 .accordion 
 	+span-columns(7)
 	overflow: hidden
-	
-
-
-/*set style of closed slide*/
+	.bottone-generico
+		margin-top: 15px
+		margin-left: 20px
+		margin-bottom: -15px
+		z-index: 10
 .accordion section
 	float: left
 	overflow: hidden
@@ -300,10 +299,6 @@ nav
 	color: #000
 	font-weight: bold
 
-/*End General Accordion****************************************************************************/
-
-
-/*Vertical Accordion *************************************************************************/
 .vertical section
 	width: 100%
 	height: 43px
@@ -313,7 +308,6 @@ nav
 	-ms-transition:height 0.2s ease-out
 	transition:height 0.2s ease-out
 
-/*Set height of the slide*/
 .vertical :target
 	height: 100%
 
