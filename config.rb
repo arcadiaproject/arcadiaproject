@@ -43,7 +43,7 @@ page "/list"
 page "/post.html", :layout => :html5
 page "/bestiarum.html", :layout => :html5
 page "/evento.html", :layout => :html5
-
+page "/contattaci.html", :layout => :html5
 
 data.actors.friends.each do |name|
   proxy "/#{name}.html", "/actor.html", :locals => { :person_name => name }, :ignore => true

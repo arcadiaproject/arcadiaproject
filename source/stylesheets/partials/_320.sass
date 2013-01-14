@@ -318,6 +318,28 @@ nav
 	.box
 		.white-box
 			padding: 5px
+.contattaci
+	a.button-black
+		+span-columns(4,11)
+		clear: both
+		position: relative
+		height: 30px
+		+background( image-url("textures/btn_white_corner_top_left.png") no-repeat top left, image-url("textures/btn_white_corner_top_right.png") no-repeat top right, image-url("textures/btn_white_corner_bottom_left.png") no-repeat bottom left, image-url("textures/btn_white_corner_bottom_right.png") no-repeat bottom right,black)
+		display: block
+		font-family: "lato"
+		font-size: px-to-em(13px)
+		line-height: 30px
+
+		color: #00FFCE
+		font-weight: 900
+		font-style: italic
+		padding-left: 11px
+		text-decoration: none
+		&:focus
+			color: #BDFFF2
+		&:visited
+			background-color: $purple
+		color: #D0F7EF
 		
 	
 
