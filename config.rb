@@ -36,13 +36,15 @@ end
 
 page "/feed.xml", :layout => false
 page "/", :layout => :html5
+
 page "/eventi.html", :layout => :html5
 
-page "/list"
+# page "/list"
 
-page "/post.html", :layout => :html5
-page "/bestiarum.html", :layout => :html5
-page "/evento.html", :layout => :html5
+page "/tracks/track.html", :layout => :html5
+# page "/bestiarum.html", :layout => :html5
+page "/tracks/eventi/evento.html", :layout => :html5
+
 page "/contattaci.html", :layout => :html5
 
 data.actors.friends.each do |name|
