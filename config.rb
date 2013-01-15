@@ -37,18 +37,18 @@ end
 page "/feed.xml", :layout => false
 page "/", :layout => :html5
 
-page "/eventi.html", :layout => :html5
+page "/events.html", :layout => :html5
 
 # page "/list"
 
 page "/tracks/track.html", :layout => :html5
-page "/tracks/ixdt.html", :layout => :html5
-page "/tracks/appsterdam.html", :layout => :html5
+page "/tracks/ixdtuesday.html", :layout => :html5
+page "/tracks/appsterdammilano.html", :layout => :html5
 # page "/bestiarum.html", :layout => :html5
-page "/tracks/eventi/evento.html", :layout => :html5
-page "/tracks/eventi/mobile-first.html", :layout => :html5
+page "/tracks/events/evento.html", :layout => :html5
+page "/tracks/events/mobile-first.html", :layout => :html5
 
-page "/contattaci.html", :layout => :html5
+page "/contactus.html", :layout => :html5
 
 #data.actors.friends.each do |name|
 #  proxy "/#{name}.html", "/actor.html", :locals => { :person_name => name }, :ignore => true
