@@ -1,5 +1,6 @@
 $purple: #724457
 
+
 #logo
 	+assign-sprite-background($assets)
 	+sprite($assets, "logo-mobile", true)
@@ -82,6 +83,7 @@ nav
 	ul
 		+no-bullets
 		@extend .noindent
+		margin-bottom: 20px
 		li
 			.description
 				+span-columns(7)
@@ -348,7 +350,6 @@ nav
 			font-weight: 400
 			font-size: 13px
 			line-height: 17px
-		p.inizio
 			margin-bottom: 20px
 		img
 			max-width: 100%
