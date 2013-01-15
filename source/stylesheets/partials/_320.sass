@@ -396,7 +396,7 @@ nav
 		+span-columns(6)
 		position: relative
 		margin-top: 10px
-		h1, p, .autore, .data, .dove
+		h1, p, .autore, .dove
 			padding-left: 16px
 			padding-right: 16px
 			font-family: "lato"
@@ -431,16 +431,24 @@ nav
 			margin: 0 0 10px 0
 		.data
 			background-color: #00FFCE
-			margin: 0
+			margin: 0 16px
+			font-family: "lato"
+			display: inline-block
+			padding: 0 3px
+			clear: left
+			+float-left
+			position: relative
 		.dove
 			font-weight: 900
 			text-transform: uppercase
 			margin: 0 0 16px 0
+			position: relative
+			clear: left
 		.indirizzo
 			font-family: "lato"
 	.bottone-generico
 		position: absolute
-		+pre(3)
+		+pre(4)
 		margin-top: -7px
 
 //track
