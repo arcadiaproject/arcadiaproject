@@ -117,7 +117,7 @@
 		margin-top: 10px
 		position: relative
 		.box
-			width: columns(7,13)
+			+span-columns(7 omega,13)
 			position: absolute
 			top: 10px
 			right: 0
@@ -127,38 +127,28 @@
 			p.inizio
 				width: 40%
 			p.fine
-				width: 60%
+				+span-columns(8,13)
 			.content-image
 				display: block
 				+clearfix	
-				img.evento1
+				img
 					+float-left
-					margin: 2px
-				img.evento2
-					+float-left
-					width: 300px
-					margin: 2px
-				img.evento4
-					+float-left
-					width: 200px
-					margin: 2px
-				img.evento4
-					+float-left	
-					margin: 2px
+					margin: 0 4px 10px 0
 					
-//track
 	.track
 		.content-calendar
 			.white-box
-				opacity: 0.6
 				+clearfix
 				+span-columns(11,13)
 				padding: 15px 15px 15px 0
+				.container-info
+					+span-columns(7,11)
 				p.data-calendar
-					+span-columns(3,11)
-					//margin-left: 15px
+					+span-columns(2 alpha,7)
+					margin: 5px 0 0 15px
 				h1
-					+span-columns(4,11)
+					+span-columns(4 omega,7)
+					
 					//margin: 0
 				.container-descrizione
 					+span-columns(4 omega,11)
