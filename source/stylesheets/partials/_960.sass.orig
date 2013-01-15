@@ -28,7 +28,11 @@
 			display: inline-block
 			&.vision
 				line-height: px-to-em(66px,55px)
+<<<<<<< HEAD
 				+span-columns(13,13)
+=======
+				+span-columns(12,13)
+>>>>>>> fix bugs and border bottom
 		p.subtitle
 			font-size: px-to-em(18px,16px)
 			line-height: px-to-em(21px,24px)
