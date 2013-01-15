@@ -58,6 +58,10 @@
 				li
 					+horizontal-list-item
 					+span-columns(4,13)
+					&.large
+						width: auto
+						a
+							padding-right: 20px
 					.description
 						.asterisk
 							+sprite($assets, "asterisk", true)
@@ -73,6 +77,8 @@
 						line-height: 44px
 					
 						padding-left: 20px
+						
+							
 						
 		//post-cover
 		.post
@@ -114,7 +120,7 @@
 				
 
 	.evento
-		margin-top: 10px
+		margin-top: 40px
 		position: relative
 		.box
 			+span-columns(7 omega,13)

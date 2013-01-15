@@ -42,8 +42,11 @@ page "/eventi.html", :layout => :html5
 # page "/list"
 
 page "/tracks/track.html", :layout => :html5
+page "/tracks/ixdt.html", :layout => :html5
+page "/tracks/appsterdam.html", :layout => :html5
 # page "/bestiarum.html", :layout => :html5
 page "/tracks/eventi/evento.html", :layout => :html5
+page "/tracks/eventi/mobile-first.html", :layout => :html5
 
 page "/contattaci.html", :layout => :html5
 
