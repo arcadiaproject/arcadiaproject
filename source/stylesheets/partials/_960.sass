@@ -2,6 +2,7 @@
 	#logo
 		+sprite($assets, "logo", true)
 	#container
+		+susy-grid-background
 	#left-column
 		+span-columns(3)
 		nav[role="navigation_menu"]
@@ -63,14 +64,18 @@
 						a
 							padding-right: 20px
 					.description
+						margin-bottom: 12px
 						.asterisk
 							+sprite($assets, "asterisk", true)
+							margin-top: 4px
 						p
 							white-space: normal
 							+hyphenation
 							font-size: px-to-em(13px)
-							line-height: px-to-em(23px,24px)
+							line-height: px-to-em(17px,13px)
 							margin: 0 0 0 sprite-width($assets, "asterisk")+5px
+						p.padder
+							padding-bottom: 32px
 					a.button-black
 						height: 44px
 						font-size: px-to-em(16px)
@@ -112,7 +117,7 @@
 			.container-info
 				+span-columns(4,11)
 				h1
-					margin: 0
+					margin-top: 0
 			.container-descrizione
 				+span-columns(4 omega,11)
 				p:first-child
