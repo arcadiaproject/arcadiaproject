@@ -2,7 +2,6 @@
 	#logo
 		+sprite($assets, "logo", true)
 	#container
-		+susy-grid-background
 	#left-column
 		+span-columns(3)
 		nav[role="navigation_menu"]
@@ -133,6 +132,8 @@
 					background: $green
 				a:visited
 					color: $purple
+					&:hover
+						background: $green
 			.container-descrizione
 				+span-columns(4 omega,11)
 				p:first-child
