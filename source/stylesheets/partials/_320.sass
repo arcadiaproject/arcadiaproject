@@ -97,7 +97,7 @@ nav
 					margin-top: 4px
 				p
 					font-family: "lato", sans-serif
-					text-transform: lowercase
+					text-transform: none
 					font-size: px-to-em(10px)
 					line-height: px-to-em(11px,10px)
 					color: #333333
@@ -250,18 +250,30 @@ nav
 		.foto
 			width: 106px
 			height: 106px
-		h1, .data-calendar, .luogo-calendar, .intro-calendar
+		a, h1, .data-calendar, .luogo-calendar, .intro-calendar
 			font-style: italic
 			font-weight: 400
-		h1, .luogo-calendar, .intro-calendar
+		a, h1, .luogo-calendar, .intro-calendar
 			+span-columns(7)
-		h1
+		a, h1
 			font-family: "libertine"
 			font-size: 23px
 			line-height: 27px
 			text-transform: uppercase
 			text-decoration: underline
 			margin: 12px 0 5px 0
+		a
+			color: black
+			+float-left
+			position: relative
+		a:hover
+			color: $green
+			background: black
+		a:active
+			color: black
+			background: $green
+		a:visited
+			color: $purple
 		.data-calendar
 			font-family: "lekton"
 			font-size: 10px
@@ -284,7 +296,7 @@ nav
 			background: image-url("textures/text_indent_grey-mobile.png") top left no-repeat
 			color: $grey
 			margin: 10px 0 0 0
-	
+
 
 .accordion 
 	+span-columns(7)
@@ -537,12 +549,12 @@ nav
 			.foto
 				width: 106px
 				height: 106px
-			h1, .data-calendar, .luogo-calendar, .intro-calendar
+			a, h1, .data-calendar, .luogo-calendar, .intro-calendar
 				font-style: italic
 				font-weight: 400
-			h1, .luogo-calendar, .intro-calendar
+			a, h1, .luogo-calendar, .intro-calendar
 				+span-columns(7)
-			h1
+			a, h1
 				font-family: "libertine"
 				font-size: 23px
 				line-height: 27px
