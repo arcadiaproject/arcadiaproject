@@ -49,6 +49,7 @@ page "/tracks/events/evento.html", :layout => :html5
 page "/tracks/events/mobile-first.html", :layout => :html5
 
 page "/contactus.html", :layout => :html5
+page "actors/actor.html", :layout => :html5
 
 #data.actors.friends.each do |name|
 #  proxy "/#{name}.html", "/actor.html", :locals => { :person_name => name }, :ignore => true
