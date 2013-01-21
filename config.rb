@@ -55,6 +55,9 @@ data.actors.each do |a|
   proxy "/actors/#{a.url}.html", "/actors/actor_template.html", :locals => { :actor => a }, :ignore => true
 end
 
+data.tracks.each do |t|
+  proxy "/tracks/#{t.url}.html", "/tracks/track.html", :locals => { :track => t }, :ignore => true
+end
 ### 
 # Compass
 ###
