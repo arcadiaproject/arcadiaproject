@@ -17,13 +17,16 @@
           %p Join us for lunch!
         %a.button-black{:href => "/contactus.html"} Book now!
   %ul.people
-    %li
-      %a{:href => "/actors/brunobellissimo.html"}
-        .white-box
-          %h3 Bruno Bellissimo
-          %h4 / iOSholic
-          .left_hover
-          .center_hover
-          .right_hover
+    - data.actors.each do |a| 
+      %li
+        %a{ :href => "/actors/#{a.url}.html", :ref=> "#{a.name}"}
+          .white-box
+            %h3 
+              #{a.name}
+            %h4
+              \/ #{a.beast}
+            .left_hover
+            .center_hover
+            .right_hover
     / chiusura right column
 / chiusura container

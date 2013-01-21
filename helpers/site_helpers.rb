@@ -1,7 +1,7 @@
 module SiteHelpers
 
   def page_title
-    title = "Set your site title in /helpers/site_helpers.rb"
+    title = "A network of nerds, geeks beasts and cool people to know"
     if data.page.title
       title << " | " + data.page.title
     end
@@ -12,7 +12,8 @@ module SiteHelpers
     if data.page.description
       description = data.page.description
     else
-      description = "Set your site description in /helpers/site_helpers.rb"
+      description = "You hacker, whatever beast you look like — designerd, developeneur, investivist, bootstrapper, a foundreamer —
+you are an Arcadian."
     end
     description
   end

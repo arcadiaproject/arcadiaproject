@@ -49,12 +49,10 @@ page "/tracks/events/evento.html", :layout => :html5
 page "/tracks/events/mobile-first.html", :layout => :html5
 
 page "/contactus.html", :layout => :html5
-page "actors/actor.html", :layout => :html5
-page "actors/brunobellissimo.html", :layout => :html5
 
-#data.actors.friends.each do |name|
-#  proxy "/#{name}.html", "/actor.html", :locals => { :person_name => name }, :ignore => true
-#end
+data.actors.each do |a|
+  proxy "/actors/#{a.url}.html", "/actors/actor_template.html", :locals => { :actor => a }, :ignore => true
+end
 
 ### 
 # Compass
