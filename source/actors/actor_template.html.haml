@@ -19,11 +19,8 @@ layout: html5
 			.white-box
 				%p.quote
 					&#171; #{actor.quote2} &#187;;
-		.content
-			%p.inizio
-				
-			.content-image
-				=image_tag 'buno.jpg', :class=> "evento1"
-				
-			%p.fine
+		
+			
+		.content= partial "#{actor.url}" 
+			
 				
