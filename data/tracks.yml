@@ -1,7 +1,10 @@
 -
-	url : "ixdtuesday"
-	tile : "IxDT"
-	subtitle: " / Interaction Design Tuesday"
-	excerpt: "Interaction Design (IxD) brings technology to people, and people to digital services. IxD goes far beyond how the interface looks like: it is about the design of the whole User Experience and plays a key role in determining the success of a digital service on the market. For digital startups, IxD is a paramount competitive factor. This series of podcast explore a number of strategies to bring and keep users to your startup – and every company or projects with similar needs. The series of IxDT are organized in collaboration with Treatabit – the playground for new media startuppers"
-	
-	 
+  url : "ixdtuesday"
+  title : "IxDT"
+  subtitle: " / Interaction Design Tuesday"
+  excerpt: "Interaction Design (IxD) brings technology to people, and people to digital services. IxD goes far beyond how the interface looks like: it is about the design of the whole User Experience and plays a key role in determining the success of a digital service on the market. For digital startups, IxD is a paramount competitive factor. This series of podcast explore a number of strategies to bring and keep users to your startup – and every company or projects with similar needs. The series of IxDT are organized in collaboration with Treatabit – the playground for new media startuppers"
+-
+  url : "appsterdammilano"
+  title : "Appsterdam"
+  subtitle: ""
+  excerpt: "Appsterdam è un'associazione nata da un'idea di Mike Lee, sviluppatore iOS di fama mondiale, che ha deciso di creare in Olanda una rete di professionisti nell'ambito del mondo delle applicazioni - siano esse mobile, web, embedded o desktop. Il gruppo promuove la cultura digitale in maniera completa: tra di noi ci sono soprattutto sviluppatori e designer, ma la nostra comunità include anche esperti di comunicazione, di marketing, di economia o legge; ogni singola idea è valida e può trovare ospitalità in Appsterdam. Da Febbraio del 2012, Appsterdam apre la sua ambasciata a Milano per offrire i propri servizi anche al pubblico italiano, permettendo così visibilità a livello internazionale."

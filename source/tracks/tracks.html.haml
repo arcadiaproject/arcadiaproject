@@ -5,21 +5,14 @@ layout: html5
 #left-column
 	= link_to '/',:ref=> 'home', :class => "no style" do
 		#logo
-	%nav{:role => "navigation_menu"}
-		%ul
-			%li
-				%a{:href => ""} All
-			%li
-				%a{:href => "/tracks/events/mobile-first.html"} Mobile first
-		
-		
 #right-column
 	.container-intestazione
-		%h1.title
-			#{a.title}
-		%p.subtitle #{a.subtitle}
-	%p.excerpt
-		#{a.excerpt}
+		%h1.title 
+			#{track.title}
+		%p.subtitle 
+			#{track.subtitle}
+	%p.excerpt 
+		#{track.excerpt}
 	.clear
 	.track
 		.bottone-generico
@@ -30,74 +23,24 @@ layout: html5
 			.left_hover
 			.center_hover
 			.right_hover
-		.content-calendar
-			.white-box
-				.container-info
-					%a{:href => "/tracks/events/mobile-first.html"}
-						Oltre il Responsive Design una strategia scalabile per essere online su tutti i device 
-					%p.data-calendar
-						Martedì 15 Gennaio 201/ ore 19.00
-					%p.data-calendar
-						at
-						%span.where società anonima, Via Pietro Micca, 12, Torino
-				.container-descrizione
-					%p.intro-calendar
-						Nel 2012 si è parlato molto di responsive design. Il 2013 sarà l’anno in cui si passerà davvero dalla teoria alla pratica.
-					%p.intro-calendar
-						Piermaria Cosina, CDO The Doers
-		.content-calendar
-			.white-box
-				.container-info
-					%a{:href => ""}
-						Venture Capital: istruzioni per l'uso
-					%p.data-calendar
-						Martedì 12 Febbraio 2013
-					%p.data-calendar
-						at
-						%span.where società anonima, Via Pietro Micca, 12, Torino
-				.container-descrizione
-					%p.intro-calendar
-						come funziona e in che modo può aiutare una startup.
-					%p.intro-calendar
-						Emanuele Levi - 360° Capital
-	-# .clear	
-	-# .post
-	-# 	%img.post{:src => "../images/img1.png"}/
-	-# 	.content-data.white-box
-	-# 		%h1 07 / december / 2012
-	-# 	.content-news.white-box
-	-# 		%h1 I miti dell’ Internet Marketing: come conciliare logiche SEO ed Esperienza Utente
-	-# 		%p.autore con Claudio Petrarulo
-	-# 		%p.data Giovedì 7 gennaio ore 19.00
-	-# 		%p.dove 
-	-# 			@ società anonima
-	-# 			%span.indirizzo — Via Pietro Micca 12
-	-# 	.clear
-	-# 		%a.bottone-generico{:href => "#shgsgs"}
-	-# 			.container
-	-# 				.corner-left
-	-# 				.corner-right
-	-# 				%h3 read more
-	-# 			.left_hover
-	-# 			.center_hover
-	-# 			.right_hover
-	-# .post
-	-# 	%img.post{:src => "../images/img1.png"}/
-	-# 	.content-data.white-box
-	-# 		%h1 07 / december / 2012
-	-# 	.content-news.white-box
-	-# 		%h1 IxDT / Interaction Design Tuesday
-	-# 		%p And we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. You understand?
-	-# 		%p.sub-paragraph We go there, and that nigga Winston or anybody else in there. Then I’m gonna shoot that bitch in the kneecaps, find out where my goddamn money is.
-	-# 	.clear
-	-# 		%a.bottone-generico{:href => "#shgsgs"}
-	-# 			.container
-	-# 				.corner-left
-	-# 				.corner-right
-	-# 				%h3 read more
-	-# 			.left_hover
-	-# 			.center_hover
-	-# 			.right_hover
-	/ chiusura post
-	/ chiusura right column
-	/ chiusura container
+			
+		- data.events.group_by {|a| a.url }.each do |url, events|
+			- if url == track.url	
+				-  events.each do |e|
+					.content-calendar
+						.white-box
+							.container-info
+								%a
+									#{e.title}
+								%p.data-calendar
+									#{e.date}
+								%p.data-calendar
+									at
+									%span.where 
+										#{e.where}
+							.container-descrizione
+								%p.intro-calendar
+									#{e.intro1}
+								%p.intro-calendar
+									#{e.intro2}
+							

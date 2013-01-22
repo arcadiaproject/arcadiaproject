@@ -11,9 +11,8 @@ module SiteHelpers
   def page_description
     if data.page.description
       description = data.page.description
-    else
-      description = "You hacker, whatever beast you look like — designerd, developeneur, investivist, bootstrapper, a foundreamer —
-you are an Arcadian."
+    
+     
     end
     description
   end

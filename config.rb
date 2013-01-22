@@ -42,12 +42,12 @@ page "/events.html", :layout => :html5
 
 # page "/list"
 
-page "/tracks/track.html", :layout => :html5
-page "/tracks/ixdtuesday.html", :layout => :html5
-page "/tracks/appsterdammilano.html", :layout => :html5
+###page "/tracks/track.html", :layout => :html5
+###page "/tracks/ixdtuesday.html", :layout => :html5
+###page "/tracks/appsterdammilano.html", :layout => :html5
 page "/bestiarium.html", :layout => :html5
-page "/tracks/events/evento.html", :layout => :html5
-page "/tracks/events/mobile-first.html", :layout => :html5
+###page "/tracks/events/evento.html", :layout => :html5
+###page "/tracks/events/mobile-first.html", :layout => :html5
 
 page "/contactus.html", :layout => :html5
 
@@ -56,7 +56,11 @@ data.actors.each do |a|
 end
 
 data.tracks.each do |t|
-  proxy "/tracks/#{t.url}.html", "/tracks/track.html", :locals => { :track => t }, :ignore => true
+  proxy "/tracks/#{t.url}.html", "/tracks/tracks.html", :locals => { :track => t }, :ignore => true
+end
+
+data.events.each do |e|
+  proxy "/tracks/events/#{e.url-event}.html", "/tracks/events/event.html", :locals => { :track => e }, :ignore => true
 end
 ### 
 # Compass
