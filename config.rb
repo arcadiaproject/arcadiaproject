@@ -56,12 +56,13 @@ data.actors.each do |a|
 end
 
 data.tracks.each do |t|
-  proxy "/tracks/#{t.url}.html", "/tracks/tracks.html", :locals => { :track => t }, :ignore => true
+  proxy "/tracks/#{t.url}.html", "/tracks/track_template.html", :locals => { :track => t }, :ignore => true
 end
 
 data.events.each do |e|
-  proxy "/tracks/events/#{e.url-event}.html", "/tracks/events/event.html", :locals => { :track => e }, :ignore => true
+  proxy "/tracks/events/#{e.urlevent}.html", "/tracks/events/event_template.html", :locals => { :event => e }, :ignore => true
 end
+
 ### 
 # Compass
 ###
