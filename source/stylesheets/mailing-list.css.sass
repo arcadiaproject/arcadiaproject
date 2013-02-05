@@ -39,18 +39,47 @@ body
 	padding: 0
 	-webkit-font-smoothing: antialiased
 
+
 p
 	font-family: "source sans pro","Helvetica Neue", Helvetica, Arial, sans-serif
 
 div.logo
-	// background: white image-url("logo_mail.png") no-repeat left top
-	// width: image-width("logo_mail.png")
-	// height: image-height("logo_mail.png")
+	background: white image-url("logoixdt.png") no-repeat left top
+	width: image-width("logoixdt.png")
+	height: image-height("logoixdt.png")
 	margin-bottom: px-to-em(0px)
+	
+div.logo_doers
+	background: white image-url("logo_doers.png") no-repeat left top
+	width: image-width("logo_doers.png")
+	height: image-height("logo_doers.png")
+	margin-bottom: px-to-em(0px)
+	
+div.logo_stripes
+	background: white image-url("stripes.png") no-repeat left top
+	width: image-width("stripes.png")
+	height: image-height("stripes.png")
+	margin-bottom: px-to-em(0px)	
+	margin-top: 10px
 
+div.logo_join
+	background: white image-url("join.png") no-repeat left top
+	width: image-width("join.png")
+	height: image-height("join.png")
+	margin-bottom: px-to-em(0px)
+	margin-top: 10px
+
+div.logo_arcadia
+	background: white image-url("arcadia_logo.png") no-repeat left top
+	width: image-width("arcadia_logo.png")
+	height: image-height("arcadia_logo.png")
+	margin-bottom: px-to-em(0px)
+	margin-top: 10px
+	
+	
 h1,h2,h3,h4,h5,h6	
 	margin: px-to-em(10px) 0 0 0 
-	color: $rose
+	color: #00FFCE
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 	font-weight: bold
 	line-height: px-to-em(16px)
@@ -69,18 +98,20 @@ h6
 
 hr.border
 	margin-bottom: px-to-em(0px)
-	border : 0
+	border : 1px solid
 	// height : image-height("textures/spined.png")
-	// background : image-url("textures/spined.png") repeat-x
-
+	// backgroun d : image-url("textures/spined.png") repeat-x
+	
+	
 img
 	width: 100%
 	max-width: 100%
+	
 p
 	&.subtitle
 		font-size: px-to-em(18px)
 		margin: px-to-em(3px) 0 px-to-em(5px) 0
-		color: $rose
+		color: $black
 		text-transform: uppercase
 		font-size: px-to-em(14px)
 	&.month
@@ -88,15 +119,15 @@ p
 		margin-top: px-to-em(5px)
 		margin-bottom: px-to-em(20px)
 		position: relative
-		color: $rose
+		color: $black
 		font-weight: bold
 		text-transform: uppercase
+
 		span
-			color: $purple
+			color: $black
 	&.description
 		font-size: px-to-em(16px)
-		display: inline
-		color: $purple
+		color: $black
 	
 	a
 		background-color: yellow
@@ -104,7 +135,9 @@ p
 		&:hover
 			color: $purple
 			background-color: $acqua
-
+     
+    
+     
 table[id="external"]
 	margin: 0 !important
 	padding: 0 !important
@@ -122,10 +155,28 @@ table[id="external"]
 				
 @media screen and (max-device-width: 480px), screen and (max-width: 480px)
 	div.logo
-		// background: white image-url("logo_mail_mobile.png") no-repeat left top
-		// width: image-width("logo_mail_mobile.png")
-		// height: image-height("logo_mail_mobile.png")
-		margin-bottom: px-to-em(30px)
+		background: white image-url("logoixdt.png") no-repeat left top
+		width: image-width("logoixdt.png")
+		height: image-height("logoixdt.png")
+		margin-bottom: px-to-em(0px)
+	
+	div.logo_doers
+		background: white image-url("logo_doers.png") no-repeat left top
+		width: image-width("logo_doers.png")
+		height: image-height("logo_doers.png")
+		margin-bottom: px-to-em(0px)
+		
+	div.logo_stripes
+		background: white image-url("stripes.png") no-repeat left top
+		width: image-width("stripes.png")
+		height: image-height("stripes.png")
+		margin-bottom: px-to-em(0px)		
+	
+	div.logo_join
+		background: white image-url("join.png") no-repeat left top
+		width: image-width("join.png")
+		height: image-height("join.png")
+		margin-bottom: px-to-em(0px)		
 	
 	h1,h2,h3,h4,h5,h6
 		margin: px-to-em(5px) 0 0 0
