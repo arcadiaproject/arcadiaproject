@@ -9,7 +9,7 @@
   track: "appsterdammilano"
 -
   title: "Appsterdam TalkLab"
-  urlevent: "c"  
+  urlevent: "talklab"  
   date: "giovedì 21 febbraio / ore 19.00"
   month: "Febraury"
   where: "tbo"
@@ -18,7 +18,7 @@
   track: "appsterdammilano"
 -
   title: "Appsterdam TalkLab"
-  urlevent: "c"  
+  urlevent: "talklab"  
   date: "giovedì 14 marzo / ore 19.00"
   month: "March"
   where: "tbo"
@@ -36,7 +36,7 @@
   track: "ixdtuesday"
 -
   title: "Engagement trough succeed gamification"
-  urlevent: "c"  
+  urlevent: "gamification"  
   date: "martedì 16 febbraio / ore 19.00"
   month: "Febraury"
   where: "società anonima"

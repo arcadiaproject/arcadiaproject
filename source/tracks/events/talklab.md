@@ -4,16 +4,16 @@ Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money
 {: .inizio}
 
 
-![elena](../../images/ph1.png)
+![elena](images/ph1.png)
 {: .content-image}
 
-![elena](../../images/ph2.png)
+![elena](images/ph2.png)
 {: .content-image}
 
-![elena](../../images/ph3.png)
+![elena](images/ph3.png)
 {: .content-image}
 
-![elena](../../images/ph4.png)
+![elena](images/ph4.png)
 {: .content-image}
 		
 Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 

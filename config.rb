@@ -40,16 +40,11 @@ page "/", :layout => :html5
 
 page "/events.html", :layout => :html5
 
-# page "/list"
 
-###page "/tracks/track.html", :layout => :html5
-###page "/tracks/ixdtuesday.html", :layout => :html5
-###page "/tracks/appsterdammilano.html", :layout => :html5
+
 page "/bestiarum.html", :layout => :html5
 
 page "/mails/mailing-list.html", :layout => false
-###page "/tracks/events/evento.html", :layout => :html5
-###page "/tracks/events/mobile-first.html", :layout => :html5
 
 page "/contactus.html", :layout => :html5
 

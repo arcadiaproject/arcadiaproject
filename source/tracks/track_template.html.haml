@@ -58,7 +58,7 @@ layout: html5
 			.post
 				-  events.each do |e|
 					- if DateTime.now > DateTime.parse("#{e.month}")
-						%img.post{:src => "../images/#{e.urlevent}_post.png"}/
+						%img.post{:src => "events/images/#{e.urlevent}_post.png"}/
 						.content-data.white-box
 							%h1 #{e.date}
 						.content-news.white-box
