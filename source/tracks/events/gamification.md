@@ -15,9 +15,9 @@
 ### HERE YOU GO...
 # GAMES
 
-[[angrybirds.png]]
-[[supermario.png]]
-[[playstation.png]]
+![foto1](images/angrybirds.png)
+![foto2](images/supermario.png)
+![foto3](images/playstation.png)
 
 ***
 
@@ -25,11 +25,11 @@
 ### HERE YOU GO....
 # GAMES?
 
-[[foursquare.png]]
-[[pinterest.png]]
-[[millemiglia.png]]
-[[stackoverflow.png]]
-[[linkedin2.png]]
+![foto4](images/foursquare.png)
+![foto5](images/pinterest.png)
+![foto6](images/millemiglia.png)
+![foto7](images/stackoverflow.png)
+![foto8](images/linkedin2.png)
 
 
 ***
@@ -46,7 +46,7 @@ Jane McGonigal
 
 Bernard Suits, The Grasshopper: Games, Life and Utopia. 
 
-[[suitsMcGonigal.png]]
+![foto9](images/suitsMcGonigal.png)
 
 
 ***
@@ -66,7 +66,7 @@ Activation of neurological and physical systems.
 
 > “No pressure nor fatigue.”
 
-[[flowzone.png]]
+![foto10](images/flowzone.png)
 
 ***
 ### GAMIFICATION
@@ -109,20 +109,20 @@ Explored game mechanics: SAPS
 ***
 ###Status: X factor
 
-[[xfactor-multiplier.png]]
+![foto11](images/xfactor-multiplier.png)
 
 ###Access: Categorization by size
 
-[[4.png]]
+![foto12](images/4.png)
 
 From local to global
-[[2.png]]
+![foto13](images/2.png)
 
 ### Power: Red Button
-[[13.png]]
+![foto14](images/13.png)
 
 ### Stuff: Step by Step
-[[15df.png]]
+![foto15](images/15df.png)
 
 
 ***
@@ -131,20 +131,20 @@ From local to global
 # CLASSICS
 
 ### The boyscout and the army
-[[nike+.png]]
-[[nike+1.png]]
-[[nike+2.png]]
-[[nike+3.png]]
-[[nike+3-1.png]]
+![foto16](images/nike+.png)
+![foto17](images/nike+1.png)
+![foto18](images/nike+2.png)
+![foto19](images/nike+3.png)
+![foto20](images/nike+3-1.png)
 
 ### Precius metal market
 
-[[linkedin.png]]
-[[linkedin2-1.png]]
-[[linkedin4.png]]
+![foto21](images/linkedin.png)
+![foto22](images/linkedin2-1.png)
+![foto23](images/linkedin4.png)
 
 ### Stage of mastery
-[[angrybirds-1.png]]
+![foto24](images/angrybirds-1.png)
 
 ***
 
@@ -160,34 +160,34 @@ Bartle's player types
 ### Example! SoccerSquare
 
 A game with improvable gamification (before redesign!)
-[[bartlesoccer1.png]]
+![foto25](images/bartlesoccer1.png)
 
 ### After redesign
-[[bartlesoccer2.png]]
+![foto26](images/bartlesoccer2.png)
 
-[[soccersquare.png]]
+![foto27](images/soccersquare.png)
 
 ***
 
 ### EXTERNAL FEEDBACKS AND ...
 # BUSINESS MODEL
 
-[[beintoo.png]]
-[[beintooBM.png]]
+![foto28](images/beintoo.png)
+![foto29](images/beintooBM.png)
 Gamification based advertising model
 
 ***
 ### FROM EXTERNAL TO INTERNAL TRIGGERS
 # ANSQUARE!
 
-[[ansquare.png]]
+![foto30](images/ansquare.png)
 
 
 ***
 ### FROM EXTERNAL TO INTERNAL TRIGGERS
 # PINTEREST?
 
-[[pinterest-1.png]]
+![foto31](images/pinterest-1.png)
 
 ***
 
@@ -208,16 +208,16 @@ Pinterest vs tetris
  
 `Serendipity`
 
-[[tetris.png]]
+![foto32](images/tetris.png)
 
 ***
 ### INTERNAL TRIGGERS
 # UNCONVETIONAL VIEW
 
 > Would you prefer a retweet or a Foursquare badge?
-[[twitterretweet.png]]
-[[facebookcomments.png]]
-[[facebooklikes.png]]
+![foto33](images/twitterretweet.png)
+![foto34](images/facebookcomments.png)
+![foto35](images/facebooklikes.png)
 
 ***
 Contatti: fabrizio@mirabito.it

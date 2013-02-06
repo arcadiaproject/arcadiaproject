@@ -5,7 +5,7 @@
 ### SEO AND UX - A SYNERGIC APPROACH
 # HOW DOES GOOGLE WORK?
 
-[[linkjuice.png]]
+![foto1](images/linkjuice.png)
 
 ***
 
@@ -30,17 +30,17 @@ Just UX
 `+ value`
 `+ $`
 
-[[site5.png]]
-[[site5-1.png]]
-[[site5-2.png]]
-[[site5-3.png]]
-[[heroku3.png]]
-[[heroku1.png]]
-[[heroku2.png]]
-[[heroku4.png]]
-[[heroku5.png]]
-[[ux1.png]]
-[[ux2.png]]
+![foto2](images/site5.png)
+![foto3](images/site5-1.png)
+![foto4](images/site5-2.png)
+![foto5](images/site5-3.png)
+![foto6](images/heroku3.png)
+![foto7](images/heroku1.png)
+![foto8](images/heroku2.png)
+![foto9](images/heroku4.png)
+![foto10](images/heroku5.png)
+![foto11](images/ux1.png)
+![foto12](images/ux2.png)
 
 
 ***
@@ -67,21 +67,21 @@ Just UX
 `# Community trust`
 `# Google trust`
 
-[[smm.png]]
-[[shave1.png]]
-[[shave2.png]]
-[[shave3.png]]
-[[hand2.png]]
-[[hand1.png]]
+![foto13](images/smm.png)
+![foto14](images/shave1.png)
+![foto15](images/shave2.png)
+![foto16](images/shave3.png)
+![foto17](images/hand2.png)
+![foto18](images/hand1.png)
 
 
 ***
 ### MYTH 2 - ANYBODY DESERVES TO BE BOTHERED FOR A FACEBOOK LIKE
 # CONTENT IS KING
 
-[[like1.gif]]
-[[like2.gif]]
-[[googleplus.png]]
+![foto19](images/like1.gif)
+![foto20](images/like2.gif)
+![foto21](images/googleplus.png)
 
 ***
 ### MYTH 3 - DON'T INVEST IN MARKET SEGMENT ALREADY EXPLOITED
@@ -92,14 +92,14 @@ Just UX
 `@ Personal finance;`
 `@ Hand writing;`
 
-[[niche1.png]]
-[[ux3.png]]
-[[svpply5.png]]
-[[svpply6.png]]
-[[fancy3.png]]
-[[moneywiz9.png]]
-[[hand2.png]]
-[[clear8.png]]
+![foto22](images/niche1.png)
+![foto23](images/ux3.png)
+![foto24](images/svpply5.png)
+![foto25](images/svpply6.png)
+![foto26](images/fancy3.png)
+![foto27](images/moneywiz9.png)
+![foto28](images/hand2.png)
+![foto29](images/clear8.png)
 
 
 ***
@@ -115,13 +115,13 @@ Take advantage of them for marketing tactics
 
 ## User feedback are key if filtered with a given methodology and integrated into a solid development strategy
 
-[[clear9.png]]
-[[clear1.png]]
-[[clear2.png]]
-[[clear3.png]]
-[[clear4.png]]
-[[samsung2.jpeg]]
-[[moneywiz8.png]]
+![foto30](images/clear9.png)
+![foto31](images/clear1.png)
+![foto32](images/clear2.png)
+![foto33](images/clear3.png)
+![foto34](images/clear4.png)
+![foto35](images/samsung2.jpeg)
+![foto36](images/moneywiz8.png)
 
 
 ***
@@ -142,15 +142,15 @@ Pay attention to
 `$ flat information architecture`
 `$ performances' optimizzion`
 
-[[vanilla.jpeg]]
-[[google1.png]]
-[[google2.png]]
-[[google3.png]]
-[[google4.png]]
-[[google5.png]]
-[[google6.png]]
-[[google10.png]]
-[[google11.png]]
+![foto37](images/vanilla.jpeg)
+![foto38](images/google1.png)
+![foto39](images/google2.png)
+![foto40](images/google3.png)
+![foto41](images/google4.png)
+![foto42](images/google5.png)
+![foto43](images/google6.png)
+![foto44](images/google10.png)
+![foto45](images/google11.png)
 
 
 ## Contact
