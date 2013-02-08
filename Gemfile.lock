@@ -108,6 +108,7 @@ GEM
     ptools (1.2.2-x86-mingw32)
       win32-file (>= 0.5.4)
     rack (1.4.1)
+    rack-google-analytics (0.11.0)
     rack-livereload (0.3.10)
       rack
     rack-protection (1.3.2)
@@ -149,7 +150,6 @@ GEM
       multi_json (~> 1.3)
     url_mount (0.2.1)
       rack
-    win32-api (1.4.8)
     win32-api (1.4.8-x86-mingw32)
     win32-file (0.6.8)
       win32-api (>= 1.2.1)
@@ -177,5 +177,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-smusher
   oily_png
+  rack-google-analytics
   redcarpet
   susy (= 1.0)

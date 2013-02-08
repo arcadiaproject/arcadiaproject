@@ -117,6 +117,8 @@ set :images_dir, 'images'
 
 set :fonts_dir, 'fonts'
 
+use Rack::GoogleAnalytics, :tracker => 'UA-22904820-18'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -136,7 +138,7 @@ configure :build do
   
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  # activate :smusher
+   activate :smusher
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
