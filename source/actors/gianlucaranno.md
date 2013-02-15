@@ -10,7 +10,7 @@ Questo è un test Questo è un test  -->
 {: .content-image}
 
 
-#* Caratteristiche della bestia
+#* Distinctive features 
 
 ###Kingdom: <br />
 ###Phylum: <br />
@@ -23,7 +23,7 @@ Questo è un test Questo è un test  -->
 ###Fun Fact: 
 <br />
 
-#* Descrizione dell'incontro: 
+#* A short story:
 <br />
 
 #* links:
