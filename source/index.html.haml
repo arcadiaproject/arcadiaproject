@@ -31,3 +31,12 @@
 					%p
 						We would love to invite you at our table for a lunch in studio. Do you have any idea, experience, opinion, project to share with us?
 				=link_to 'Contact us', '/contactus.html',:class => "button-black" 
+	.share
+		%div{:class=>"addthis_toolbox addthis_default_style addthis_32x32_style"}
+			%a{:class=>"addthis_button_facebook"}
+			%a{:class=>"addthis_button_twitter"}
+			%a{:class=>"addthis_button_google_plusone_badge"}
+			%a{:class=>"addthis_counter addthis_bubble_style"}
+		%script{:type=>"text/javascript"}
+			var addthis_config = {"data_track_addressbar":true};
+		%script{:type=>"text/javascript", :src=>"http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-5121eaaf4bb4e7c2"}

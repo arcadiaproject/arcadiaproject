@@ -13,6 +13,13 @@
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
     %meta{:content => "yes", :name =>"apple-mobile-web-app-capable"}
     %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}
+    
+    %meta{:property=>"go:title", :content=>"Arcadia"}
+    %meta{:property=>"go:type", :content=>"website"}
+    %meta{:property=>"go:url", :content=>"http://arcadiaproject.github.com"}
+    %meta{:property=>"go:image", :content=>"http://arcadiaproject.github.com/images/assets/logo.png"}
+    %meta{:property=>"go:site_name", :content=>"Arcadia"}
+    %meta{:property=>"fb:app_id", :content=>"164379667045352"}
    
     
     <!-- Favicons and touch icons -->
@@ -32,8 +39,18 @@
     
     = javascript_include_tag "vendor/Modernizr"
     = stylesheet_link_tag "site"
+    
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a { :href=>"http://browsehappy.com/">Upgrade to a different browser</a> or <a { :href=>"http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+    #fb-root
+    %script
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=164379667045352";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     %header
     %div{:role => "main", :id => "container"}= yield
     %footer
