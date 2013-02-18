@@ -4,8 +4,7 @@ Venture Capital: Istruzioni per l’uso (Come funziona e in che modo può aiutar
 ![test](images/flyer_venturecapital.png)
 {.content-image}
 
-<<<<<<< HEAD
-[Signup here!](http://venturecapitalistruzioni.eventbrite.com/)
+
 =======
 # Introduction to venture capital
 
