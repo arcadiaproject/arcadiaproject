@@ -41,11 +41,11 @@ Venture Capital: Istruzioni per l’uso (Come funziona e in che modo può aiutar
 
 # Venture Capital	champions
 
-# Europe
+## Europe
 
 ![photo2](images/venture2.png)
 
-# USA
+## USA
 
 ![photo3](images/venture3.png)	
 
@@ -139,4 +139,4 @@ What	 is the real	average holding time in Europe (1)?
 	
   	
   	
->>>>>>> fix
+
