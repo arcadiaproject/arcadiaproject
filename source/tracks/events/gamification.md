@@ -3,9 +3,6 @@
 
 
 
-11.12.2012 Non si gioca con la gamification - Società Anonima
-
-***
 
 ### WHAT THE HELL ARE WE DOING HERE?
 # GOOD QUESTION!
