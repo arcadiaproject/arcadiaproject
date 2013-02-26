@@ -24,6 +24,11 @@ Questo è un test Questo è un test  -->
 
 <br />
 
+#Quote 3:
+###"Ho insegnato a mia mamma Face Time...Ho creato un mostro!"
+
+<br />
+
 #* A short story: 
  Bruno is a iOS freelance developer from Naples, Italy. While many others migrated to Milan, he choose to establish his headquarter in Cuneo, a delightful little town in the inner Piemonte. When we first met Marco Bestonzo, CEO of Intoino, smartly grasping the very concept of Arcadia, Marco said: you guys have to meet Bruno. So we did and Arcadia took off! Since then Bruno has been visiting us at least once per month, settling his mac air in our office for a full day and tirelessly challenging our methodologies, thoughts, projects and, last but not least, supporting and enlarging Arcadia's network!
  
