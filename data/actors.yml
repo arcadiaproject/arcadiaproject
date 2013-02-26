@@ -5,17 +5,19 @@
   date : "06 / novembre / 2012"
   quote1 : "Questo peperoncino mi ha provato"
   quote2 : "Mi manca l'innocenza delle persone che definiscono 'gelo' i 10 gradi sopra lo zero" 
+  quote3 : "Ho insegnato a mia mamma Face Time...Ho creato un mostro!" 
+  
 -
   url : "paologiovine"
   name : "Paolo Giovine"
-  beast : "iOSholic"
+  beast : "boogienpreneur"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
 -
   url : "purianafisiaziz"
   name : "Puria Nafisi Aziz"
-  beast : "iOSholic"
+  beast : "Python charmer"
   date : "06 / novembre / 2012"
   quote1 : "Partner and CRM at Axant"
   quote2 : "" 
@@ -23,22 +25,15 @@
 -  
   url : "leonardocamiciotti"
   name : "Leonardo camiciotti"
-  beast : "iOSholic"
+  beast : "Devt. Program Manager"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : "" 
-  
--  
-  url : "massimofariello"
-  name : "Massimo Fariello"
-  beast : "iOSholic"
-  date : "06 / novembre / 2012"
-  quote1 : ""
-  quote2 : ""
+
 -  
   url : "robertopioli"
   name : "Roberto Pioli"
-  beast : "iOSholic"
+  beast : "archinector"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -46,7 +41,7 @@
 -  
   url : "piermichelebosio"
   name : "Piermichele Bosio"
-  beast : "iOSholic"
+  beast : "entreprementor"
   date : "06 / novembre / 2012"
   quote1 : "Scusate la cravatta..ma per noi purtroppo ormai è consuetudine"
   quote2 : ""
@@ -54,14 +49,14 @@
 -  
   url : "gianpierodivotti"
   name : "Gianpiero Divotti"
-  beast : "iOSholic"
+  beast : "team psycoach"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
 -  
   url : "christianracca"
   name : "Christian Racca"
-  beast : "iOSholic"
+  beast : "design engineer"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -69,7 +64,7 @@
 -  
   url : "gianfrancorepucci"
   name : "Gianfranco Repucci"
-  beast : "iOSholic"
+  beast : "dev bro"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -77,7 +72,7 @@
 -   
   url : "lorenzocavassa"
   name : "Lorenzo Cavassa"
-  beast : "iOSholic"
+  beast : "Senior Systems Engineer"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -85,7 +80,7 @@
 -   
   url : "giuseppemazziotti"
   name : "Giuseppe Mazziotti"
-  beast : "iOSholic"
+  beast : "law and technology"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -93,7 +88,7 @@
 -   
   url : "veronicadivietri"
   name : "Veronica Di Vietri"
-  beast : "iOSholic"
+  beast : "Fiscal architect"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -101,7 +96,7 @@
 -  
   url : "franksaviane"
   name : "Frank Saviane"
-  beast : "iOSholic"
+  beast : "Biz coach"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -109,7 +104,7 @@
 -  
   url : "faustomartino"
   name : "Fausto Martino"
-  beast : "iOSholic"
+  beast : "Early adopstor"
   date : "06 / novembre / 2012"
   quote1 : "Soup Ambassador at Soup&Go"
   quote2 : ""
@@ -117,7 +112,7 @@
 -   
   url : "fabrizioparodi"
   name : "Fabrizio Parodi"
-  beast : "iOSholic"
+  beast : "Titanium miner"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -126,7 +121,7 @@
 -  
   url : "emanuelelevi"
   name : "Emanuele Levi"
-  beast : "iOSholic"
+  beast : "VC Evangelist "
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -134,7 +129,7 @@
 - 
   url : "claudiopetrarulo"
   name : "Claudio Petrarulo"
-  beast : "iOSholic"
+  beast : "SEO angel"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -142,7 +137,7 @@
 - 
   url : "cirospedaliere"
   name : "Ciro Spedaliere"
-  beast : "iOSholic"
+  beast : "Secret mentor"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -150,7 +145,7 @@
 -
   url : "pietropuglisi"
   name : "Pietro Puglisi"
-  beast : "iOSholic"
+  beast : "Entrepregamer"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -158,7 +153,7 @@
 -  
    url : "gabrielecostamagna"
    name : "Gabriele Costamagna"
-   beast : "iOSholic"
+   beast : "Iconic CEO"
    date : "06 / novembre / 2012"
    quote1 : ""
    quote2 : ""
@@ -166,7 +161,7 @@
 - 
   url : "andreaaloi"
   name : "Andrea Aloi"
-  beast : "iOSholic"
+  beast : "The Lord of the Nerds"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -174,7 +169,7 @@
 -  
   url : "alexcarpentieri"
   name : "Alex Carpentieri"
-  beast : "iOSholic"
+  beast : "Node.js padawan"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -182,7 +177,7 @@
 -  
   url : "giuseppespezzano"
   name : "Giuseppe Spezzano"
-  beast : "iOSholic"
+  beast : "CEO of Bookolico"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -191,7 +186,7 @@
 -  
   url : "alessandrosalute"
   name : "Alessandro Salute"
-  beast : "iOSholic"
+  beast : "Game designerd"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -200,7 +195,7 @@
   
   url : "marcobestonzo"
   name : "Marco Bestonzo"
-  beast : "iOSholic"
+  beast : "IoT wizard"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -208,7 +203,7 @@
 -  
   url : "gianlucaranno"
   name : "Gianluca Ranno"
-  beast : "iOSholic"
+  beast : "foodevangelist"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -216,7 +211,7 @@
 -  
   url : "lorenzoverna"
   name : "Lorenzo Verna"
-  beast : "iOSholic"
+  beast : "BigData samurai"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -225,7 +220,7 @@
 -   
   url : "maradalmazzo"
   name : "Mara Dalmazzo"
-  beast : "iOSholic"
+  beast : "IsopJournalist"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
@@ -233,34 +228,61 @@
 -  
   url : "marcoderossi"
   name : "Marco De Rossi"
-  beast : "iOSholic"
+  beast : "Opened pioneer"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
 
--  
-  url : "andreaserapioni"
-  name : "Andrea Serapioni"
-  beast : "iOSholic"
-  date : "06 / novembre / 2012"
-  quote1 : ""
-  quote2 : ""
- 
--  
-  url : "matteoorefice"
-  name : "Matteo Orefice"
-  beast : "iOSholic"
+
+-   
+  url : "zoragoncharov"
+  name : "Zora Goncharov"
+  beast : "glocal shaper"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
 
 -   
-  url : "zoragoncharov"
-  name : "Zora Goncharov"
-  beast : "iOSholic"
+  url : "lucasvigliocco"
+  name : "Lucas Vigliocco"
+  beast : "Fashion entrepre-nurse"
+  date : "06 / novembre / 2012"
+  quote1 : "L'idea è nata due anni fa ad uno startup weekend a Torino"
+  quote2 : "La musica è il miglior vettore di comunicazione per vendere vestiti"
+  
+
+-  
+  url : "saraarrigone"
+  name : "Sara Arrigone"
+  beast : "Web Marketing Guru"
   date : "06 / novembre / 2012"
   quote1 : ""
   quote2 : ""
+
+-  
+  url : "sarabigazzi"
+  name : "Sara Bigazzi"
+  beast : "Mixer and injector"
+  date : "06 / novembre / 2012"
+  quote1 : ""
+  quote2 : ""
+
+-  
+  url : "marcogrimaldi"
+  name : "Marco Grimaldi"
+  beast : "Civic hero"
+  date : "06 / novembre / 2012"
+  quote1 : ""
+  quote2 : ""
+ 
+-  
+  url : "lorenzopregliasco"
+  name : "Lorenzo Pregliasco"
+  beast : "King of Data"
+  date : "06 / novembre / 2012"
+  quote1 : ""
+  quote2 : ""
+  
   
   
   

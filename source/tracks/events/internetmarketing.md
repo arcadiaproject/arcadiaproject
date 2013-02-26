@@ -1,7 +1,7 @@
 ![flyer](images/photo2.png)
 
 
-***
+
 ### SEO AND UX - A SYNERGIC APPROACH
 # HOW DOES GOOGLE WORK?
 

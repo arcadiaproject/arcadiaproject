@@ -176,6 +176,7 @@ DEPENDENCIES
   middleman-favicon-maker
   middleman-livereload
   middleman-smusher
+  mini_magick
   oily_png
   rack-google-analytics
   redcarpet

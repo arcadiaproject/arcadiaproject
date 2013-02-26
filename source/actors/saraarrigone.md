@@ -6,7 +6,7 @@ Questo è un test Questo è un test  -->
 {: .inizio}
 
 
-![elena](images/andre1.JPG)
+![elena](images/sara.JPG)
 {: .content-image}
 
 
