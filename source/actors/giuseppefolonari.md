@@ -6,7 +6,7 @@ Questo è un test Questo è un test  -->
 {: .inizio}
 
 
-![elena](images/paologiov.jpeg)
+![elena](images/giusfol.jpg)
 {: .content-image}
 
 
@@ -23,7 +23,7 @@ Questo è un test Questo è un test  -->
 ###Fun Fact: 
 <br />
 
-#* A short story: 
+#* A short story:
 <br />
 
 #* links:
