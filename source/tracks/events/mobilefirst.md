@@ -1,7 +1,7 @@
 Oltre il Responsive Design una strategia scalabile per essere online su tutti i device 
 {: .inizio}
 
-![flyer](images/flyer_colore_responsive_azzurro.png)
+<iframe src="http://player.vimeo.com/video/60656746?byline=0&amp;portrait=0&amp;color=00ffce" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 {.content-image}
 
 
