@@ -12,14 +12,14 @@ Questo è un test Questo è un test  -->
 
 #* Distinctive features 
 
-###Kingdom: <br />
-###Phylum: <br />
-###Class: <br />
-###Habitat: <br />
-###Diet:<br />
+###Kingdom: Marketing  <br />
+###Phylum: Marketing Manager presso MyTable<br />
+###Class: start-upper<br />
+###Habitat: startup savana<br />
+###Diet:Marketing Strategy / Automotive / Microsoft Ofice / SQL / Business planning / Web marketing / Business process Reengineering<br />
 ###Lifestyle: <br />
-###Most Distintive Feature:<br />
-###Biggest Threat:<br />
+###Most Distintive Feature: Jolly girl in Mytable team<br />
+###Biggest Threat: <br />
 ###Fun Fact: 
 <br />
 
@@ -27,6 +27,8 @@ Questo è un test Questo è un test  -->
 <br />
 
 #* links:
+
+               http://www.mytable.it/
 {: .fine}
 
 
