@@ -3,7 +3,8 @@
 
 
 
-### PRESENTATION ILENOLIUKGO:
+### PRESENTATION:
+![foto1](images/pres_ixdt_9-02.png)
 ![foto2](images/slideILENOLIUKGO-01.png)
 ![foto3](images/slideILENOLIUKGO-02.png)
 ![foto4](images/slideILENOLIUKGO-03.png)
@@ -46,12 +47,39 @@
 ![foto41](images/slideILENOLIUKGO-40.png)
 ![foto42](images/slideILENOLIUKGO-41.png)
 ![foto43](images/slideILENOLIUKGO-42.png)
-
+![foto44](images/pres_ixdt_9-03.png)
+![foto45](images/pres_ixdt_9-04.png)
+![foto46](images/pres_ixdt_9-05.png)
+![foto47](images/pres_ixdt_9-06.png)
+![foto48](images/pres_ixdt_9-07.png)
+![foto49](images/pres_ixdt_9-08.png)
+![foto50](images/pres_ixdt_9-09.png)
+![foto51](images/pres_ixdt_9-10.png)
+![foto52](images/pres_ixdt_9-11.png)
+![foto53](images/pres_ixdt_9-12.png)
+![foto54](images/pres_ixdt_9-13.png)
+![foto55](images/pres_ixdt_9-14.png)
+![foto56](images/pres_ixdt_9-15.png)
+![foto57](images/pres_ixdt_9-16.png)
+![foto58](images/pres_ixdt_9-17.png)
+![foto59](images/pres_ixdt_9-18.png)
+![foto60](images/pres_ixdt_9-19.png)
+![foto61](images/pres_ixdt_9-20.png)
+![foto62](images/pres_ixdt_9-21.png)
+![foto63](images/pres_ixdt_9-22.png)
 
 
 ## Contact
 
-ileNOliukGO@gmail.com
+http://thedoersproject.com/
 we@thedoersproject.com
+-
+
+http://arcadiaproject.github.com/
+arcadia@thedoersproject.com
+-
+
+http://www.ilenoliukgo.com/
+ileNOliukGO@gmail.com
 
 
