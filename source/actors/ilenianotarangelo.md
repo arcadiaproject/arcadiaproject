@@ -6,9 +6,8 @@ Questo è un test Questo è un test  -->
 {: .inizio}
 
 
-![elena](images/claudio.jpg)
+![elena](images/ile.jpg)
 {: .content-image}
-
 
 
 
