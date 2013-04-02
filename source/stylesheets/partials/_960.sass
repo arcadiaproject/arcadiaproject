@@ -2,6 +2,7 @@
 	#logo
 		+sprite($assets, "logo", true)
 	#container
+		//+susy-grid-background
 	#left-column
 		+span-columns(3)
 		nav[role="navigation_menu"]
@@ -18,7 +19,15 @@
 							background: #00FFCE
 						&:active
 							background: #BDFFF2
-							
+					
+	#right-column
+		.share
+			clear: both
+			position: relative
+			padding-top: .8em
+			padding-bottom: .2em
+			+float-left
+			top: 0
 	#right-column
 		+span-columns(13 omega)
 		.container-intestazione
@@ -80,8 +89,8 @@
 							font-size: px-to-em(13px)
 							line-height: px-to-em(17px,13px)
 							margin: 0 0 0 sprite-width($assets, "asterisk")+5px
-						p.padder
-							padding-bottom: 32px
+						.events, .bestiarum, .contact-us
+							min-height: 90px
 					a.button-black
 						height: 44px
 						font-size: px-to-em(16px)
@@ -153,16 +162,25 @@
 
 			
 		.content
+			p.short-story
+				+span-columns(6,13)
+				margin-top: 10px
+				position: relative
+				z-index: 2
+				margin-bottom: -50px
 			p.inizio
 				width: 40%
 			p.fine
 				+span-columns(8,13)
-			.content-image
-				display: block
-				+clearfix	
-				img
-					+float-left
-					margin: 0 4px 10px 0
+			img
+				max-width: 90%
+				position: relative
+				clear: both
+			.distinctive
+				+span-columns(9,13)
+			.links
+				+span-columns(4 omega,13)
+
 					
 	.track
 		.content-calendar
