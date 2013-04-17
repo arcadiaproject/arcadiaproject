@@ -1,10 +1,11 @@
 Venture Capital: Istruzioni per l’uso (Come funziona e in che modo può aiutare una stratup) 
 {: .inizio}
 
+</br>
 ![test](images/flyer_venturecapital.png)
 {.content-image}
 
-
+</br>
 =======
 # Introduction to venture capital
 

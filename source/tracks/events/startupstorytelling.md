@@ -1,7 +1,3 @@
-![flyer](images/flyer_storytelling.png)
-
-
-
 
 ### PRESENTATION:
 ![foto1](images/pres_ixdt_9-02.png)
