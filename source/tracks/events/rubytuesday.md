@@ -128,7 +128,7 @@
 
 ![foto1](images/20_ruby.png)
 
-### PRESENTATION WE LAIKA:
+# PRESENTATION WE LAIKA:
 ![foto1](images/talk_ixdt10_Pagina_01.png)
 ![foto1](images/talk_ixdt10_Pagina_02.png)
 ![foto1](images/talk_ixdt10_Pagina_03.png)
@@ -162,6 +162,11 @@
 ![foto1](images/talk_ixdt10_Pagina_31.png)
 ![foto1](images/talk_ixdt10_Pagina_32.png)
 ![foto1](images/talk_ixdt10_Pagina_33.png)
+<ul>
+  <li>
+      <a href="http://rubygems.org">rubygems.org</a>
+  </li>
+</ul>  
 ![foto1](images/talk_ixdt10_Pagina_34.png)
 ![foto1](images/talk_ixdt10_Pagina_35.png)
 ![foto1](images/talk_ixdt10_Pagina_36.png)
@@ -173,8 +178,23 @@
 ![foto1](images/talk_ixdt10_Pagina_42.png)
 ![foto1](images/talk_ixdt10_Pagina_43.png)
 ![foto1](images/talk_ixdt10_Pagina_44.png)
+<ul>
+  <li>
+      <a href="http://workshop.welaika.com/">workshop.welaika.com</a>
+  </li>
+</ul>  
 ![foto1](images/talk_ixdt10_Pagina_45.png)
-
+<ul>
+  <li>
+      <a href="http://dev.welaika.com">dev.welaika.com</a>
+  </li>
+  <li>
+      <a href="http://workshop.welaika.com/">workshop.welaika.com</a>
+  </li>
+  <li>
+      <a href="http://thedoersproject.com/">thedoersproject.com</a>
+  </li>
+</ul> 
 
 
 
