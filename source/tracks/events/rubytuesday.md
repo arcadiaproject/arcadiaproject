@@ -3,7 +3,7 @@
 ### PRESENTATION:
 
 
-![foto1](images/1_ruby.png) </br>
+![foto1](images/1_ruby.png) 
 
 ![foto1](images/2_ruby.png)
 
