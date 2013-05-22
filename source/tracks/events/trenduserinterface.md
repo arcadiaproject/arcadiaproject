@@ -257,7 +257,6 @@ Comprendere i trend significa avere accesso agli strumenti - funzionali, tecnici
   <li>
       <a href="http://compass-style.org/">compass-style.or</a>
   </li> 
-
 </ul>
 ![foto1](images/trend_40.png) 
 <ul>
@@ -280,7 +279,6 @@ Comprendere i trend significa avere accesso agli strumenti - funzionali, tecnici
   <li>
       <a href="http://adamwhitcroft.com/wirekit/">adamwhitcroft.com</a>
   </li> 
-  
 </ul>
 ![foto1](images/trend_43.png)
 <ul>
@@ -290,7 +288,6 @@ Comprendere i trend significa avere accesso agli strumenti - funzionali, tecnici
   <li>
       <a href="http://html5readiness.com/">html5readiness.com</a>
   </li> 
-  
 </ul>
 ![foto1](images/trend_44.png)  
 ![foto1](images/trend_45.png)  
