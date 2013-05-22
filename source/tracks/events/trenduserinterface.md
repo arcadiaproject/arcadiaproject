@@ -6,6 +6,7 @@ Come per gli oggetti fisici o i vestiti, anche il design dei prodotti interattiv
 Un design resistente, per prodotti digitali, è un design che asseconda il cambiamento come fattore di user engagement fondamentale. 
 Comprendere i trend significa avere accesso agli strumenti - funzionali, tecnici ed estetici - del cambiamento ed acquisire un asset competitivo essenziale.
 
+
 ![flyer](images/trend_flyer.png)
 
 
